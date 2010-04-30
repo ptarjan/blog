@@ -1,0 +1,14 @@
+{% include header.html %}
+    <link rel="openid.server" href="http://www.myopenid.com/server" /> 
+    <link rel="openid.delegate" href="http://ptarjan.myopenid.com/" /> 
+    <link rel="openid2.local_id" href="http://ptarjan.myopenid.com" /> 
+    <link rel="openid2.provider" href="http://www.myopenid.com/server" /> 
+    <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=ptarjan.myopenid.com" /> 
+  </head>
+
+  <body>
+
+    <div id="content">
+      <h1>{{ page.title }}</h1>
+    {{ content }}
+{% include footer.html %}

@@ -1,0 +1,13 @@
+img.left {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.right {
+  float: right;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

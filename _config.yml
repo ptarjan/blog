@@ -1,0 +1,6 @@
+server: true
+pygments: true
+lsi: true
+permalink: none
+auto: true
+paginate: 10

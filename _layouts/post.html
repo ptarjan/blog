@@ -1,0 +1,40 @@
+{% include header.html %}
+  </head>
+
+  <body>
+
+    <div id="content">
+
+      <div id="page-navigation"> 
+        <div class="left"> 
+        {% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: 
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a> 
+        {% endif %} 
+        </div> 
+
+        <div class="right"> 
+          {% if page.next.url %} 
+                  <a href="{{page.next.url}}" title="next Post: 
+  {{page.next.title}}">{{page.next.title}} &raquo; </a> 
+          {% endif %} 
+        </div> 
+
+        <div class="center">
+          <a href="/">
+            <img src="http://paultarjan.com/paul.jpg" height="30" />
+            <span>
+              From Paul Tarjan's Blog
+            </span>
+          </a>
+        </div>
+
+        <div style="clear:both"></div>
+      </div> 
+
+      <h1>{{ page.title }}</h1>
+    
+      {{ content }}
+    
+      <em>Posted on {{ page.date | date_to_long_string }}</em> by <a href="http://paultarjan.com">Paul Tarjan</a>
+{% include footer.html %}
