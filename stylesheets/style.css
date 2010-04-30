@@ -32,8 +32,17 @@ body {
   padding: 10px 0;
 }
 #page-navigation .center a {
-  padding: 10px;
-  text-shadow: 3px blue;
+  padding:        10px;
+  border-top:     2px solid #333;
+  border-bottom:  1px solid #666;
+  font-size:      1em;
+  font-weight:    bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin:         16px 0;
+  padding:        4px 0 3px;
+  text-shadow:    3px 3px 10px #AAAAAA;
+  text-align:     center;
 }
 
 #page-navigation div.left:hover, #page-navigation div.right:hover {
