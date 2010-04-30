@@ -1,0 +1,44 @@
+--- 
+permalink: /2009/01/searchmonkey-song.html
+layout: post
+title: SearchMonkey Song
+tags: 
+- searchmonkey
+- audio
+- song
+---
+<p>I wrote a little song for my product at work : <a href='http://developer.yahoo.com/searchmonkey'>SearchMonkey</a> (or Search Monkey if you want to misspell it).
+
+<p>
+Enjoy :) And please suggest more verses or make a video with it :)
+
+<p>
+<a href='http://ptarjan.googlepages.com/SearchMonkey.mp3' type="audio/mpeg">SearchMonkey song</a>
+
+<p>
+Lyrics: 
+<pre>
+SearchMonkey get information
+SearchMonkey help you out
+SearchMonkey store structured data
+That you can't live without.
+ 
+You say old searching very diligent
+But its output stink
+Result not functional or elegant
+What do SearchMonkey think?
+ 
+SearchMonkey think maybe developer want to write god damn result page himself
+SearchMonkey just say it out loud
+SearchMonkey is crazy and proud
+ 
+SearchMonkey like Yahoo!
+SearchMonkey like semantic knowledge
+SearchMonkey very simple app
+That anyone can use:
+Even Monkey like you
+</pre>
+<p>
+Note: This is NOT endorsed by Yahoo! or anything like that. It is just me having a little fun :)
+
+<script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>

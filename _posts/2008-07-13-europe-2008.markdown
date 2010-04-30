@@ -1,0 +1,30 @@
+--- 
+permalink: /2008/07/europe-2008.html
+layout: post
+title: Europe 2008
+tags: 
+- personal
+- europe-2008
+---
+Michelle and I just got back from our European adventure and I've been putting off doing a full fledged blog post by doing other fun things.
+
+<p>
+Here are the flickr photos from the trip: <a href="http://flickr.com/photos/ptarjan/sets/72157606136696465/">My Pictures</a> &amp; <a href="http://flickr.com/photos/ptarjan/sets/72157606142319086/">Michelle's Pictures</a>
+
+<p>
+And the best part, a video!
+
+<p>
+Inspired by the <a href="http://www.youtube.com/watch?v=at_f98qOGY0">Discovery Channel  "I Love The World"</a> (Watch this first if you haven't seen it).
+
+<p>
+<a href="http://www.youtube.com/watch?v=7Gb_KlpFgCk">I Love The EU - Inspired by Discovery Channel "I Love The World" </a>
+
+<p>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/7Gb_KlpFgCk&hl=en&fs=1&ap=%2526fmt%3D18"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/7Gb_KlpFgCk&hl=en&fs=1&ap=%2526fmt%3D18" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+
+<p>
+Or Yahoo! video:
+
+<p>
+<object width="512" height="323"><param name="movie" value="http://d.yimg.com/static.video.yahoo.com/yep/YV_YEP.swf?ver=2.2.7.1" /><param name="allowFullScreen" value="true" /><param name="bgcolor" value="#000000" /><param name="flashVars" value="id=8795811&vid=3089442&lang=en-us&intl=us&thumbUrl=http%3A//us.i1.yimg.com/us.yimg.com/p/i/bcst/videosearch/4094/68175732.jpeg&embed=1" /><embed src="http://d.yimg.com/static.video.yahoo.com/yep/YV_YEP.swf?ver=2.2.7.1" type="application/x-shockwave-flash" width="512" height="323" allowFullScreen="true" bgcolor="#000000" flashVars="id=8795811&vid=3089442&lang=en-us&intl=us&thumbUrl=http%3A//us.i1.yimg.com/us.yimg.com/p/i/bcst/videosearch/4094/68175732.jpeg&embed=1" ></embed></object>

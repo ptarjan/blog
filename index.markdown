@@ -8,7 +8,7 @@ I was the Tech Lead for Yahoo! [SearchMonkey](http://developer.yahoo.com/searchm
 Now I'm a [juggling unicylcing](http://www.youtube.com/watch?v=vhvybkPa15c) web [hacker](http://paulisageek.com/ppp) @ Facebook. 
 <br/>
 [blog@paulisageek.com](mailto:blog@paulisageek.com)
-<a href="http://paultarjan.com" rel="me">My Other Internet Things</a>.
+my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 
 <div style="clear:both"></div>
 
@@ -28,4 +28,3 @@ Now I'm a [juggling unicylcing](http://www.youtube.com/watch?v=vhvybkPa15c) web 
   </li>
 {% endfor %}
 </ul>
-

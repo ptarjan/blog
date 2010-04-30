@@ -1,5 +1,11 @@
 ---
 layout: post
+title: Twitter inside Facebook
+tags: 
+- facebook
+- twitter
+- announcement
+- hack
 ---
 [<img src="http://t2fb.paulisageek.com/images/t2fb.png" class="right">](http://t2fb.paulisageek.com)
 

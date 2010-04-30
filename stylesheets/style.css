@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #content {
   width: 960px;
   margin: auto;
@@ -10,17 +15,29 @@
 #page-navigation .left {
   position: absolute;
   left: 0;
+  width: 200px;
 }
 #page-navigation .center {
   text-align: center;
-}
+  height: 40px;
+} 
 #page-navigation .right {
   position: absolute;
   right: 0;
+  width: 200px;
 }
 #page-navigation a {
   color: black;
   text-decoration: none;
+  padding: 10px 0;
+}
+#page-navigation .center a {
+  padding: 10px;
+  text-shadow: 3px blue;
+}
+
+#page-navigation div.left:hover, #page-navigation div.right:hover {
+  background: #e7e7e7;
 }
 
 img#paul {
@@ -60,4 +77,7 @@ a:visited {
 }
 img {
   border: 0;
+}
+pre {
+  overflow: auto;
 }

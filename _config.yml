@@ -1,6 +1,5 @@
 server: true
 pygments: true
-lsi: true
-permalink: none
+permalink: /:categories/:year/:month/:title.html
 auto: true
 paginate: 10

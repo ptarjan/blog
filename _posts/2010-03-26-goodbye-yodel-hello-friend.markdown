@@ -1,5 +1,12 @@
 ---
+permalink: /2010/03/goodbye-yodel-hello-friend.html
 layout: post
+title: Goodbye Yodel, Hello Friend
+tags: 
+- searchmonkey
+- hacku
+- facebook
+- yahoo
 ---
 Today is my last day at Yahoo! 
 
