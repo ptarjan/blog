@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Paul Tarjan's Blog</title>
-  <link href="http://ptarjan.github.com/atom.xml" rel="self"/>
-  <link href="http://ptarjan.github.com/"/>
+  <link href="http://blog.paulisageek.com/atom.xml" rel="self"/>
+  <link href="http://blog.paulisageek.com/"/>
   <updated>{{site.time | date_to_xmlschema }}</updated>
-  <id>http://ptarjan.github.com/</id>
+  <id>http://blog.paulisageek.com/atom.xml</id>
   <author>
     <name>Paul Tarjan</name>
     <email>blog@paulisageek.com</email>
@@ -16,9 +16,11 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="http://ptarjan.github.com{{ post.url }}" />
+    <link href="http://blog.paulisageek.com{{ post.url }}" />
+    <link rel="alternate" type="text/html" href="http://blog.paulisageek.com{{ post.url }}" />
     <updated>{{post.date | date_to_xmlschema }}</updated>
-    <id>http://ptarjan.github.com{{ post.id }}</id>
+    <published>{{post.date | date_to_xmlschema }}</published>
+    <id>http://blog.paulisageek.com{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
