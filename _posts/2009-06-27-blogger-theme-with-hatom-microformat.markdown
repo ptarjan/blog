@@ -11,13 +11,14 @@ tags:
 ---
 I just updated my theme to be <a href="http://www.blogcrowds.com/resources/view_template.php/garland_73">Garland</a> but I found that it didn't include the <a href="http://microformats.com/wiki/hatom">hAtom</a> <a href="http://microformats/">microformat</a>. So I tweaked it a little bit, and now I have a beautiful microformat. If anyone else wants to use it, just copy and paste this into the "edit template" part of your blogger layout.
 
-<div style="border: 1px solid black; overflow: scroll; height: 300px;" id="garland_template"><pre><code>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-&lt;html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
- &lt;head&gt;
-   &lt;b:include data='blog' name='all-head-content'/&gt;
-   &lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt;
-   &lt;b:skin&gt;&lt;![CDATA[/*
+{% highlight html %}
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ <head>
+   <b:include data='blog' name='all-head-content'/>
+   <title><data:blog.pageTitle/></title>
+   <b:skin><![CDATA[/*
 -----------------------------------------------
 Blogger Template Style
 Name:     Garland
@@ -352,7 +353,7 @@ width: 208px;
 z-index: 2;
 }
 
-body &gt; #wrapper #container .sidebar {
+body > #wrapper #container .sidebar {
 position: relative;
 }
 
@@ -383,574 +384,574 @@ margin-left: 10px;
 width: 400px;
 }
 
-]]&gt;&lt;/b:skin&gt;
- &lt;/head&gt;
+]]></b:skin>
+ </head>
 
-&lt;body class='sidebars'&gt;
- &lt;div id='navigation'/&gt;
+<body class='sidebars'>
+ <div id='navigation'/>
 
-&lt;div id='wrapper'&gt;
-&lt;div class='clear-block' id='container'&gt;
+<div id='wrapper'>
+<div class='clear-block' id='container'>
 
-   &lt;!-- skip links for text browsers --&gt;
-   &lt;span id='skiplinks' style='display:none;'&gt;
-     &lt;a href='#main'&gt;skip to main &lt;/a&gt; |
-     &lt;a href='#sidebar'&gt;skip to sidebar&lt;/a&gt;
-   &lt;/span&gt;
+   <!-- skip links for text browsers -->
+   <span id='skiplinks' style='display:none;'>
+     <a href='#main'>skip to main </a> |
+     <a href='#sidebar'>skip to sidebar</a>
+   </span>
 
-   &lt;div id='header'&gt;
-     &lt;b:section class='header' id='header' maxwidgets='1' showaddelement='no'&gt;
-&lt;b:widget id='Header1' locked='true' title='paulisageek (Header)' type='Header'&gt;
-&lt;b:includable id='title'&gt;
- &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
-   &lt;data:title/&gt;
- &lt;b:else/&gt;
-   &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
- &lt;/b:if&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='description'&gt;
- &lt;div class='descriptionwrapper'&gt;
-   &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='main'&gt;
- &lt;div id='logo-floater'&gt;
-   &lt;h1&gt;
-      &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
-       &lt;a href='#'&gt;&lt;data:title/&gt;&lt;/a&gt;
-     &lt;b:else/&gt;
-       &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
-     &lt;/b:if&gt;
-   &lt;/h1&gt;
- &lt;/div&gt;
- &lt;ul class='links primary-links'&gt;
-   &lt;li&gt;&lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;/b:section&gt;
-   &lt;/div&gt;
+   <div id='header'>
+     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+<b:widget id='Header1' locked='true' title='paulisageek (Header)' type='Header'>
+<b:includable id='title'>
+ <b:if cond='data:blog.url == data:blog.homepageUrl'>
+   <data:title/>
+ <b:else/>
+   <a expr:href='data:blog.homepageUrl'><data:title/></a>
+ </b:if>
+</b:includable>
+<b:includable id='description'>
+ <div class='descriptionwrapper'>
+   <p class='description'><span><data:description/></span></p>
+ </div>
+</b:includable>
+<b:includable id='main'>
+ <div id='logo-floater'>
+   <h1>
+      <b:if cond='data:blog.url == data:blog.homepageUrl'>
+       <a href='#'><data:title/></a>
+     <b:else/>
+       <a expr:href='data:blog.homepageUrl'><data:title/></a>
+     </b:if>
+   </h1>
+ </div>
+ <ul class='links primary-links'>
+   <li><a expr:href='data:blog.homepageUrl'><data:title/></a></li>
+ </ul>
+</b:includable>
+</b:widget>
+</b:section>
+   </div>
 
-   &lt;div class='sidebar' id='sidebar-left'&gt;&lt;b:section class='side' id='sidebar1' preferred='yes'&gt;
-&lt;b:widget id='Feed1' locked='false' title='FriendFeed - ptarjan' type='Feed'&gt;
-&lt;b:includable id='main'&gt;
-   &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
-   &lt;div class='widget-content' expr:id='data:widget.instanceId + "_feedItemListDisplay"'&gt;
-     &lt;span style='filter: alpha(25); opacity: 0.25;'&gt;
-       &lt;a expr:href='data:feedUrl'&gt;&lt;data:loadingMsg/&gt;&lt;/a&gt;
-     &lt;/span&gt;
-   &lt;/div&gt;
-   &lt;b:include name='quickedit'/&gt;
- &lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'&gt;
-&lt;b:includable id='main'&gt;
- &lt;b:if cond='data:title'&gt;
-   &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
- &lt;/b:if&gt;
- &lt;div class='widget-content'&gt;
- &lt;div id='ArchiveList'&gt;
- &lt;div expr:id='data:widget.instanceId + "_ArchiveList"'&gt;
-   &lt;b:if cond='data:style == "HIERARCHY"'&gt;
-    &lt;b:include data='data' name='interval'/&gt;
-   &lt;/b:if&gt;
-   &lt;b:if cond='data:style == "FLAT"'&gt;
-     &lt;b:include data='data' name='flat'/&gt;
-   &lt;/b:if&gt;
-   &lt;b:if cond='data:style == "MENU"'&gt;
-     &lt;b:include data='data' name='menu'/&gt;
-   &lt;/b:if&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;b:include name='quickedit'/&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='flat' var='data'&gt;
- &lt;ul&gt;
-   &lt;b:loop values='data:data' var='i'&gt;
-     &lt;li class='archivedate'&gt;
-       &lt;a expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt; (&lt;data:i.post-count/&gt;)
-     &lt;/li&gt;
-   &lt;/b:loop&gt;
- &lt;/ul&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='menu' var='data'&gt;
- &lt;select expr:id='data:widget.instanceId + "_ArchiveMenu"'&gt;
-   &lt;option value=''&gt;&lt;data:title/&gt;&lt;/option&gt;
-   &lt;b:loop values='data:data' var='i'&gt;
-     &lt;option expr:value='data:i.url'&gt;&lt;data:i.name/&gt; (&lt;data:i.post-count/&gt;)&lt;/option&gt;
-   &lt;/b:loop&gt;
- &lt;/select&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='interval' var='intervalData'&gt;
- &lt;b:loop values='data:intervalData' var='i'&gt;
-     &lt;ul&gt;
-       &lt;li expr:class='"archivedate " + data:i.expclass'&gt;
-         &lt;b:include data='i' name='toggle'/&gt;
-         &lt;a class='post-count-link' expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt;
-           &lt;span class='post-count' dir='ltr'&gt;(&lt;data:i.post-count/&gt;)&lt;/span&gt;
-         &lt;b:if cond='data:i.data'&gt;
-           &lt;b:include data='i.data' name='interval'/&gt;
-         &lt;/b:if&gt;
-         &lt;b:if cond='data:i.posts'&gt;
-           &lt;b:include data='i.posts' name='posts'/&gt;
-         &lt;/b:if&gt;
-       &lt;/li&gt;
-     &lt;/ul&gt;
- &lt;/b:loop&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='toggle' var='interval'&gt;
- &lt;b:if cond='data:interval.toggleId'&gt;
- &lt;b:if cond='data:interval.expclass == "expanded"'&gt;
-   &lt;a class='toggle' expr:href='data:widget.actionUrl + "&amp;action=toggle" +       "&amp;dir=close&amp;toggle=" + data:interval.toggleId +       "&amp;toggleopen=" + data:toggleopen'&gt;
-       &lt;span class='zippy toggle-open'&gt;▼ &lt;/span&gt;
-   &lt;/a&gt;
- &lt;b:else/&gt;
-   &lt;a class='toggle' expr:href='data:widget.actionUrl + "&amp;action=toggle" +         "&amp;dir=open&amp;toggle=" + data:interval.toggleId +         "&amp;toggleopen=" + data:toggleopen'&gt;
-         &lt;span class='zippy'&gt;
-           &lt;b:if cond='data:blog.languageDirection == "rtl"'&gt;
+   <div class='sidebar' id='sidebar-left'><b:section class='side' id='sidebar1' preferred='yes'>
+<b:widget id='Feed1' locked='false' title='FriendFeed - ptarjan' type='Feed'>
+<b:includable id='main'>
+   <h2><data:title/></h2>
+   <div class='widget-content' expr:id='data:widget.instanceId + "_feedItemListDisplay"'>
+     <span style='filter: alpha(25); opacity: 0.25;'>
+       <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+     </span>
+   </div>
+   <b:include name='quickedit'/>
+ </b:includable>
+</b:widget>
+<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
+<b:includable id='main'>
+ <b:if cond='data:title'>
+   <h2><data:title/></h2>
+ </b:if>
+ <div class='widget-content'>
+ <div id='ArchiveList'>
+ <div expr:id='data:widget.instanceId + "_ArchiveList"'>
+   <b:if cond='data:style == "HIERARCHY"'>
+    <b:include data='data' name='interval'/>
+   </b:if>
+   <b:if cond='data:style == "FLAT"'>
+     <b:include data='data' name='flat'/>
+   </b:if>
+   <b:if cond='data:style == "MENU"'>
+     <b:include data='data' name='menu'/>
+   </b:if>
+ </div>
+ </div>
+ <b:include name='quickedit'/>
+ </div>
+</b:includable>
+<b:includable id='flat' var='data'>
+ <ul>
+   <b:loop values='data:data' var='i'>
+     <li class='archivedate'>
+       <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+     </li>
+   </b:loop>
+ </ul>
+</b:includable>
+<b:includable id='menu' var='data'>
+ <select expr:id='data:widget.instanceId + "_ArchiveMenu"'>
+   <option value=''><data:title/></option>
+   <b:loop values='data:data' var='i'>
+     <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+   </b:loop>
+ </select>
+</b:includable>
+<b:includable id='interval' var='intervalData'>
+ <b:loop values='data:intervalData' var='i'>
+     <ul>
+       <li expr:class='"archivedate " + data:i.expclass'>
+         <b:include data='i' name='toggle'/>
+         <a class='post-count-link' expr:href='data:i.url'><data:i.name/></a>
+           <span class='post-count' dir='ltr'>(<data:i.post-count/>)</span>
+         <b:if cond='data:i.data'>
+           <b:include data='i.data' name='interval'/>
+         </b:if>
+         <b:if cond='data:i.posts'>
+           <b:include data='i.posts' name='posts'/>
+         </b:if>
+       </li>
+     </ul>
+ </b:loop>
+</b:includable>
+<b:includable id='toggle' var='interval'>
+ <b:if cond='data:interval.toggleId'>
+ <b:if cond='data:interval.expclass == "expanded"'>
+   <a class='toggle' expr:href='data:widget.actionUrl + "&amp;action=toggle" +       "&amp;dir=close&amp;toggle=" + data:interval.toggleId +       "&amp;toggleopen=" + data:toggleopen'>
+       <span class='zippy toggle-open'>▼ </span>
+   </a>
+ <b:else/>
+   <a class='toggle' expr:href='data:widget.actionUrl + "&amp;action=toggle" +         "&amp;dir=open&amp;toggle=" + data:interval.toggleId +         "&amp;toggleopen=" + data:toggleopen'>
+         <span class='zippy'>
+           <b:if cond='data:blog.languageDirection == "rtl"'>
              ◄
-           &lt;b:else/&gt;
+           <b:else/>
              ►
-           &lt;/b:if&gt;
-         &lt;/span&gt;
-   &lt;/a&gt;
- &lt;/b:if&gt;
-&lt;/b:if&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='posts' var='posts'&gt;
- &lt;ul class='posts'&gt;
-   &lt;b:loop values='data:posts' var='i'&gt;
-     &lt;li&gt;&lt;a expr:href='data:i.url'&gt;&lt;data:i.title/&gt;&lt;/a&gt;&lt;/li&gt;
-   &lt;/b:loop&gt;
- &lt;/ul&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;b:widget id='AdSense1' locked='false' title='' type='AdSense'&gt;
-&lt;b:includable id='main'&gt;
- &lt;div class='widget-content'&gt;
-   &lt;data:adCode/&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;/b:section&gt;&lt;/div&gt;
+           </b:if>
+         </span>
+   </a>
+ </b:if>
+</b:if>
+</b:includable>
+<b:includable id='posts' var='posts'>
+ <ul class='posts'>
+   <b:loop values='data:posts' var='i'>
+     <li><a expr:href='data:i.url'><data:i.title/></a></li>
+   </b:loop>
+ </ul>
+</b:includable>
+</b:widget>
+<b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+<b:includable id='main'>
+ <div class='widget-content'>
+   <data:adCode/>
+ </div>
+</b:includable>
+</b:widget>
+</b:section></div>
 
-     &lt;div id='crosscol-wrapper' style='text-align:center'&gt;
-       &lt;b:section class='crosscol' id='crosscol' showaddelement='no'/&gt;
-     &lt;/div&gt;
+     <div id='crosscol-wrapper' style='text-align:center'>
+       <b:section class='crosscol' id='crosscol' showaddelement='no'/>
+     </div>
 
-     &lt;div id='center'&gt;&lt;div id='squeeze'&gt;&lt;div class='right-corner'&gt;&lt;div class='left-corner'&gt;
-     &lt;!-- begin content --&gt;
-     &lt;div class='node'&gt;
-       &lt;b:section class='main' id='main' showaddelement='no'&gt;
-&lt;b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'&gt;
-&lt;b:includable id='nextprev'&gt;
- &lt;div class='blog-pager hentry' id='blog-pager'&gt;
-   &lt;b:if cond='data:newerPageUrl'&gt;
-     &lt;span id='blog-pager-newer-link'&gt;
-     &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
-     &lt;/span&gt;
-   &lt;/b:if&gt;
+     <div id='center'><div id='squeeze'><div class='right-corner'><div class='left-corner'>
+     <!-- begin content -->
+     <div class='node'>
+       <b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+<b:includable id='nextprev'>
+ <div class='blog-pager hentry' id='blog-pager'>
+   <b:if cond='data:newerPageUrl'>
+     <span id='blog-pager-newer-link'>
+     <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+     </span>
+   </b:if>
 
-   &lt;b:if cond='data:olderPageUrl'&gt;
-     &lt;span id='blog-pager-older-link'&gt;
-     &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
-     &lt;/span&gt;
-   &lt;/b:if&gt;
+   <b:if cond='data:olderPageUrl'>
+     <span id='blog-pager-older-link'>
+     <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+     </span>
+   </b:if>
 
-   &lt;b:if cond='data:blog.homepageUrl != data:blog.url'&gt;
-     &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
-     &lt;b:else/&gt;
-     &lt;b:if cond='data:newerPageUrl'&gt;
-       &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
-     &lt;/b:if&gt;
-   &lt;/b:if&gt;
+   <b:if cond='data:blog.homepageUrl != data:blog.url'>
+     <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+     <b:else/>
+     <b:if cond='data:newerPageUrl'>
+       <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+     </b:if>
+   </b:if>
 
- &lt;/div&gt;
- &lt;div class='clear'/&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='backlinks' var='post'&gt;
- &lt;a name='links'/&gt;&lt;h4&gt;&lt;data:post.backlinksLabel/&gt;&lt;/h4&gt;
- &lt;b:if cond='data:post.numBacklinks != 0'&gt;
-   &lt;dl class='comments-block' id='comments-block'&gt;
-     &lt;b:loop values='data:post.backlinks' var='backlink'&gt;
-       &lt;div class='collapsed-backlink backlink-control'&gt;
-         &lt;dt class='comment-title'&gt;
-           &lt;span class='backlink-toggle-zippy'&gt; &lt;/span&gt;
-           &lt;a expr:href='data:backlink.url' rel='nofollow'&gt;&lt;data:backlink.title/&gt;&lt;/a&gt;
-           &lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
-         &lt;/dt&gt;
-         &lt;dd class='comment-body collapseable'&gt;
-           &lt;data:backlink.snippet/&gt;
-         &lt;/dd&gt;
-         &lt;dd class='comment-footer collapseable'&gt;
-           &lt;span class='comment-author'&gt;&lt;data:post.authorLabel/&gt; &lt;data:backlink.author/&gt;&lt;/span&gt;
-           &lt;span class='comment-timestamp'&gt;&lt;data:post.timestampLabel/&gt; &lt;data:backlink.timestamp/&gt;&lt;/span&gt;
-         &lt;/dd&gt;
-       &lt;/div&gt;
-     &lt;/b:loop&gt;
-   &lt;/dl&gt;
- &lt;/b:if&gt;
- &lt;p class='comment-footer'&gt;
-   &lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + "_backlinks-create-link"' target='_blank'&gt;&lt;data:post.createLinkLabel/&gt;&lt;/a&gt;
- &lt;/p&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='post' var='post'&gt;
-  &lt;div class="hentry post"&gt;
-   &lt;a expr:name='data:post.id'/&gt;
-   &lt;b:if cond='data:post.title'&gt;
-     &lt;h2 class="entry-title post-title"&gt;
-    &lt;b:if cond='data:post.link'&gt;
-      &lt;a expr:href='data:post.link' rel="bookmark"&gt;&lt;data:post.title/&gt;&lt;/a&gt;
-    &lt;b:else/&gt;
-       &lt;b:if cond='data:post.url'&gt;
-         &lt;a expr:href='data:post.url' rel="bookmark"&gt;&lt;data:post.title/&gt;&lt;/a&gt;
-       &lt;b:else/&gt;
-         &lt;data:post.title/&gt;
-       &lt;/b:if&gt;
-    &lt;/b:if&gt;
-     &lt;/h2&gt;
-   &lt;/b:if&gt;
+ </div>
+ <div class='clear'/>
+</b:includable>
+<b:includable id='backlinks' var='post'>
+ <a name='links'/><h4><data:post.backlinksLabel/></h4>
+ <b:if cond='data:post.numBacklinks != 0'>
+   <dl class='comments-block' id='comments-block'>
+     <b:loop values='data:post.backlinks' var='backlink'>
+       <div class='collapsed-backlink backlink-control'>
+         <dt class='comment-title'>
+           <span class='backlink-toggle-zippy'> </span>
+           <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+           <b:include data='backlink' name='backlinkDeleteIcon'/>
+         </dt>
+         <dd class='comment-body collapseable'>
+           <data:backlink.snippet/>
+         </dd>
+         <dd class='comment-footer collapseable'>
+           <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+           <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+         </dd>
+       </div>
+     </b:loop>
+   </dl>
+ </b:if>
+ <p class='comment-footer'>
+   <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + "_backlinks-create-link"' target='_blank'><data:post.createLinkLabel/></a>
+ </p>
+</b:includable>
+<b:includable id='post' var='post'>
+  <div class="hentry post">
+   <a expr:name='data:post.id'/>
+   <b:if cond='data:post.title'>
+     <h2 class="entry-title post-title">
+    <b:if cond='data:post.link'>
+      <a expr:href='data:post.link' rel="bookmark"><data:post.title/></a>
+    <b:else/>
+       <b:if cond='data:post.url'>
+         <a expr:href='data:post.url' rel="bookmark"><data:post.title/></a>
+       <b:else/>
+         <data:post.title/>
+       </b:if>
+    </b:if>
+     </h2>
+   </b:if>
   
-   &lt;span class='submitted'&gt;
-     Posted On &lt;data:post.dateHeader/&gt;
-     &lt;b:if cond='data:top.showTimestamp'&gt;
+   <span class='submitted'>
+     Posted On <data:post.dateHeader/>
+     <b:if cond='data:top.showTimestamp'>
        at
-       &lt;data:top.timestampLabel/&gt;
-       &lt;b:if cond='data:post.url'&gt;
-         &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
-       &lt;/b:if&gt;
-     &lt;/b:if&gt; by &lt;span class="vcard author fn"&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+       <data:top.timestampLabel/>
+       <b:if cond='data:post.url'>
+         <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
+       </b:if>
+     </b:if> by <span class="vcard author fn"><data:post.author/></span>
     
-       &lt;!-- email post links --&gt;
-       &lt;b:if cond='data:post.emailPostUrl'&gt;
-         &lt;span class='item-action'&gt;
-         &lt;a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'&gt;
-           &lt;span class='email-post-icon'&gt; &lt;/span&gt;
-         &lt;/a&gt;
-         &lt;/span&gt;
-       &lt;/b:if&gt;
+       <!-- email post links -->
+       <b:if cond='data:post.emailPostUrl'>
+         <span class='item-action'>
+         <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+           <span class='email-post-icon'> </span>
+         </a>
+         </span>
+       </b:if>
 
-       &lt;!-- quickedit pencil --&gt;
-       &lt;b:include data='post' name='postQuickEdit'/&gt;
+       <!-- quickedit pencil -->
+       <b:include data='post' name='postQuickEdit'/>
     
-   &lt;/span&gt;
+   </span>
 
-   &lt;div class='content entry-content'&gt;
-     &lt;p&gt;&lt;data:post.body/&gt;&lt;/p&gt;
-     &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
-   &lt;/div&gt;
+   <div class='content entry-content'>
+     <data:post.body/></p>
+     <div style='clear: both;'/> <!-- clear for photos floats -->
+   </div>
   
-   &lt;div class='meta'&gt;
-       Posted in  &lt;b:if cond='data:post.labels'&gt;
-         &lt;data:postLabelsLabel/&gt;
-         &lt;b:loop values='data:post.labels' var='label'&gt;
-           &lt;a expr:href='data:label.url' rel='tag'&gt;&lt;data:label.name/&gt;&lt;/a&gt;&lt;b:if cond='data:label.isLast != "true"'&gt;,&lt;/b:if&gt;
-         &lt;/b:loop&gt;
-       &lt;/b:if&gt; |
+   <div class='meta'>
+       Posted in  <b:if cond='data:post.labels'>
+         <data:postLabelsLabel/>
+         <b:loop values='data:post.labels' var='label'>
+           <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != "true"'>,</b:if>
+         </b:loop>
+       </b:if> |
 
-       &lt;b:if cond='data:blog.pageType != "item"'&gt;
+       <b:if cond='data:blog.pageType != "item"'>
 
-         &lt;b:if cond='data:post.allowComments'&gt;
-           &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
-         &lt;/b:if&gt;
-       &lt;/b:if&gt;
+         <b:if cond='data:post.allowComments'>
+           <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+         </b:if>
+       </b:if>
   
 
-      &lt;!-- backlinks --&gt;
-        &lt;b:if cond='data:blog.pageType != "item"'&gt;
-          &lt;b:if cond='data:post.showBacklinks'&gt;
-            &lt;a class='comment-link' expr:href='data:post.url + "#links"'&gt;&lt;data:top.backlinkLabel/&gt;&lt;/a&gt;
-          &lt;/b:if&gt;
-        &lt;/b:if&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='commentDeleteIcon' var='comment'&gt;
- &lt;span expr:class='"item-control " + data:comment.adminClass'&gt;
-   &lt;a expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
-     &lt;span class='delete-comment-icon'&gt; &lt;/span&gt;
-   &lt;/a&gt;
- &lt;/span&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='status-message'&gt;
- &lt;b:if cond='data:navMessage'&gt;
- &lt;div class='status-msg-wrap'&gt;
-   &lt;div class='status-msg-body'&gt;
-     &lt;data:navMessage/&gt;
-   &lt;/div&gt;
-   &lt;div class='status-msg-border'&gt;
-     &lt;div class='status-msg-bg'&gt;
-       &lt;div class='status-msg-hidden'&gt;&lt;data:navMessage/&gt;&lt;/div&gt;
-     &lt;/div&gt;
-   &lt;/div&gt;
- &lt;/div&gt;
- &lt;div style='clear: both;'/&gt;
- &lt;/b:if&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='feedLinks'&gt;
- &lt;b:if cond='data:blog.pageType != "item"'&gt; &lt;!-- Blog feed links --&gt;
-   &lt;b:if cond='data:feedLinks'&gt;
-     &lt;div class='blog-feeds'&gt;
-       &lt;b:include data='feedLinks' name='feedLinksBody'/&gt;
-     &lt;/div&gt;
-   &lt;/b:if&gt;
+      <!-- backlinks -->
+        <b:if cond='data:blog.pageType != "item"'>
+          <b:if cond='data:post.showBacklinks'>
+            <a class='comment-link' expr:href='data:post.url + "#links"'><data:top.backlinkLabel/></a>
+          </b:if>
+        </b:if>
+   </div>
+  </div>
+</b:includable>
+<b:includable id='commentDeleteIcon' var='comment'>
+ <span expr:class='"item-control " + data:comment.adminClass'>
+   <a expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+     <span class='delete-comment-icon'> </span>
+   </a>
+ </span>
+</b:includable>
+<b:includable id='status-message'>
+ <b:if cond='data:navMessage'>
+ <div class='status-msg-wrap'>
+   <div class='status-msg-body'>
+     <data:navMessage/>
+   </div>
+   <div class='status-msg-border'>
+     <div class='status-msg-bg'>
+       <div class='status-msg-hidden'><data:navMessage/></div>
+     </div>
+   </div>
+ </div>
+ <div style='clear: both;'/>
+ </b:if>
+</b:includable>
+<b:includable id='feedLinks'>
+ <b:if cond='data:blog.pageType != "item"'> <!-- Blog feed links -->
+   <b:if cond='data:feedLinks'>
+     <div class='blog-feeds'>
+       <b:include data='feedLinks' name='feedLinksBody'/>
+     </div>
+   </b:if>
 
-   &lt;b:else/&gt; &lt;!--Post feed links --&gt;
-   &lt;div class='post-feeds'&gt;
-     &lt;b:loop values='data:posts' var='post'&gt;
-       &lt;b:if cond='data:post.allowComments'&gt;
-         &lt;b:if cond='data:post.feedLinks'&gt;
-           &lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
-         &lt;/b:if&gt;
-       &lt;/b:if&gt;
-     &lt;/b:loop&gt;
-   &lt;/div&gt;
- &lt;/b:if&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='comment-form' var='post'&gt;
- &lt;div class='comment-form'&gt;
-   &lt;a name='comment-form'/&gt;
-   &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
-   &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
-   &lt;data:blogTeamBlogMessage/&gt;
-   &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
-   &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='275' id='comment-editor' name='comment-editor' scrolling='no' src='' width='100%'/&gt;
-   &lt;data:post.friendConnectJs/&gt;
-   &lt;data:post.cmtfpIframe/&gt;
-   &lt;script type='text/javascript'&gt;
-     BLOG_CMT_createIframe('&lt;data:post.appRpcRelayPath/&gt;', '&lt;data:post.communityId/&gt;');
-   &lt;/script&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
- &lt;span expr:class='"item-control " + data:backlink.adminClass'&gt;
-   &lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
-     &lt;span class='delete-comment-icon'&gt; &lt;/span&gt;
-   &lt;/a&gt;
- &lt;/span&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='feedLinksBody' var='links'&gt;
- &lt;div class='feed-links'&gt;
- &lt;data:feedLinksMsg/&gt;
- &lt;b:loop values='data:links' var='f'&gt;
-    &lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)&lt;/a&gt;
- &lt;/b:loop&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='postQuickEdit' var='post'&gt;
- &lt;b:if cond='data:post.editUrl'&gt;
-   &lt;span expr:class='"item-control " + data:post.adminClass'&gt;
-     &lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
-       &lt;span class='quick-edit-icon'&gt; &lt;/span&gt;
-     &lt;/a&gt;
-   &lt;/span&gt;
- &lt;/b:if&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='comments' var='post'&gt;
-   &lt;a name='comments'/&gt;
-   &lt;b:if cond='data:post.allowComments'&gt;
-     &lt;h3 id='comments'&gt;
-       &lt;b:if cond='data:post.numComments == 1'&gt;
-         1 &lt;data:commentLabel/&gt;:
-       &lt;b:else/&gt;
-         &lt;data:post.numComments/&gt; &lt;data:commentLabelPlural/&gt;:
-       &lt;/b:if&gt;
-     &lt;/h3&gt;
+   <b:else/> <!--Post feed links -->
+   <div class='post-feeds'>
+     <b:loop values='data:posts' var='post'>
+       <b:if cond='data:post.allowComments'>
+         <b:if cond='data:post.feedLinks'>
+           <b:include data='post.feedLinks' name='feedLinksBody'/>
+         </b:if>
+       </b:if>
+     </b:loop>
+   </div>
+ </b:if>
+</b:includable>
+<b:includable id='comment-form' var='post'>
+ <div class='comment-form'>
+   <a name='comment-form'/>
+   <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+   <data:blogCommentMessage/></p>
+   <data:blogTeamBlogMessage/>
+   <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+   <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='275' id='comment-editor' name='comment-editor' scrolling='no' src='' width='100%'/>
+   <data:post.friendConnectJs/>
+   <data:post.cmtfpIframe/>
+   <script type='text/javascript'>
+     BLOG_CMT_createIframe('<data:post.appRpcRelayPath/>', '<data:post.communityId/>');
+   </script>
+ </div>
+</b:includable>
+<b:includable id='backlinkDeleteIcon' var='backlink'>
+ <span expr:class='"item-control " + data:backlink.adminClass'>
+   <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+     <span class='delete-comment-icon'> </span>
+   </a>
+ </span>
+</b:includable>
+<b:includable id='feedLinksBody' var='links'>
+ <div class='feed-links'>
+ <data:feedLinksMsg/>
+ <b:loop values='data:links' var='f'>
+    <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+ </b:loop>
+ </div>
+</b:includable>
+<b:includable id='postQuickEdit' var='post'>
+ <b:if cond='data:post.editUrl'>
+   <span expr:class='"item-control " + data:post.adminClass'>
+     <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+       <span class='quick-edit-icon'> </span>
+     </a>
+   </span>
+ </b:if>
+</b:includable>
+<b:includable id='comments' var='post'>
+   <a name='comments'/>
+   <b:if cond='data:post.allowComments'>
+     <h3 id='comments'>
+       <b:if cond='data:post.numComments == 1'>
+         1 <data:commentLabel/>:
+       <b:else/>
+         <data:post.numComments/> <data:commentLabelPlural/>:
+       </b:if>
+     </h3>
 
-     &lt;ol class='commentlist'&gt;
-       &lt;b:loop values='data:post.comments' var='comment'&gt;
-         &lt;li&gt;
-           &lt;a expr:name='"comment-" + data:comment.id'/&gt;
-           &lt;cite&gt;
-           &lt;b:if cond='data:comment.authorUrl'&gt;
-             &lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;&lt;data:comment.author/&gt;&lt;/a&gt;
-           &lt;b:else/&gt;
-             &lt;data:comment.author/&gt;
-           &lt;/b:if&gt;
-           &lt;/cite&gt; Says:
-           &lt;small class='commentmetadata'&gt;&lt;a expr:href='"#comment-" + data:comment.id' title='comment permalink'&gt;
-               &lt;data:comment.timestamp/&gt;
-             &lt;/a&gt;
-             &lt;b:include data='comment' name='commentDeleteIcon'/&gt;
-           &lt;/small&gt;
-             &lt;b:if cond='data:comment.isDeleted'&gt;
-             &lt;span class='deleted-comment'&gt;&lt;data:comment.body/&gt;&lt;/span&gt;
-           &lt;b:else/&gt;
-             &lt;p&gt;&lt;data:comment.body/&gt;&lt;/p&gt;
-           &lt;/b:if&gt;
-         &lt;/li&gt;
-       &lt;/b:loop&gt;
-     &lt;/ol&gt;
+     <ol class='commentlist'>
+       <b:loop values='data:post.comments' var='comment'>
+         <li>
+           <a expr:name='"comment-" + data:comment.id'/>
+           <cite>
+           <b:if cond='data:comment.authorUrl'>
+             <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+           <b:else/>
+             <data:comment.author/>
+           </b:if>
+           </cite> Says:
+           <small class='commentmetadata'><a expr:href='"#comment-" + data:comment.id' title='comment permalink'>
+               <data:comment.timestamp/>
+             </a>
+             <b:include data='comment' name='commentDeleteIcon'/>
+           </small>
+             <b:if cond='data:comment.isDeleted'>
+             <span class='deleted-comment'><data:comment.body/></span>
+           <b:else/>
+             <data:comment.body/></p>
+           </b:if>
+         </li>
+       </b:loop>
+     </ol>
 
-     &lt;p class='comment-footer'&gt;
-       &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
-     &lt;/p&gt;
-   &lt;/b:if&gt;
+     <p class='comment-footer'>
+       <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+     </p>
+   </b:if>
 
-   &lt;div id='backlinks-container'&gt;
-   &lt;div expr:id='data:widget.instanceId + "_backlinks-container"'&gt;
-      &lt;b:if cond='data:post.showBacklinks'&gt;
-        &lt;b:include data='post' name='backlinks'/&gt;
-      &lt;/b:if&gt;
-   &lt;/div&gt;
-   &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;b:includable id='main' var='top'&gt;
- &lt;!-- posts --&gt;
- &lt;div class='post hfeed'&gt;
+   <div id='backlinks-container'>
+   <div expr:id='data:widget.instanceId + "_backlinks-container"'>
+      <b:if cond='data:post.showBacklinks'>
+        <b:include data='post' name='backlinks'/>
+      </b:if>
+   </div>
+   </div>
+</b:includable>
+<b:includable id='main' var='top'>
+ <!-- posts -->
+ <div class='post hfeed'>
 
-   &lt;b:include data='top' name='status-message'/&gt;
+   <b:include data='top' name='status-message'/>
 
-   &lt;b:loop values='data:posts' var='post'&gt;
-     &lt;b:include data='post' name='post'/&gt;
-     &lt;b:if cond='data:blog.pageType == "item"'&gt;
-       &lt;b:include data='post' name='comments'/&gt;
-     &lt;/b:if&gt;
-   &lt;/b:loop&gt;
- &lt;/div&gt;
+   <b:loop values='data:posts' var='post'>
+     <b:include data='post' name='post'/>
+     <b:if cond='data:blog.pageType == "item"'>
+       <b:include data='post' name='comments'/>
+     </b:if>
+   </b:loop>
+ </div>
 
- &lt;!-- navigation --&gt;
- &lt;b:include name='nextprev'/&gt;
+ <!-- navigation -->
+ <b:include name='nextprev'/>
 
- &lt;!-- feed links --&gt;
- &lt;b:include name='feedLinks'/&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;/b:section&gt;&lt;/div&gt;&lt;!-- end content --&gt;&lt;!-- spacer for skins that want sidebar and main to be the same height--&gt;&lt;div class='clear'&gt; &lt;/div&gt;&lt;div id='footer-wrapper'&gt;&lt;b:section class='footer' id='footer'/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;!-- /.left-corner, /.right-corner, /#squeeze, /#center --&gt;&lt;div class='sidebar' id='sidebar-right'&gt;&lt;b:section class='side' id='sidebar2' preferred='yes'&gt;
-&lt;b:widget id='Profile1' locked='false' title='About Me' type='Profile'&gt;
-&lt;b:includable id='main'&gt;
-   &lt;b:if cond='data:title != ""'&gt;
-     &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
-   &lt;/b:if&gt;
-   &lt;div class='widget-content'&gt;
-   &lt;b:if cond='data:team == "true"'&gt; &lt;!-- team blog profile --&gt;
-     &lt;ul&gt;
-       &lt;b:loop values='data:authors' var='i'&gt;
-         &lt;li&gt;&lt;a expr:href='data:i.userUrl'&gt;&lt;data:i.display-name/&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;/b:loop&gt;
-     &lt;/ul&gt;
+ <!-- feed links -->
+ <b:include name='feedLinks'/>
+</b:includable>
+</b:widget>
+</b:section></div><!-- end content --><!-- spacer for skins that want sidebar and main to be the same height--><div class='clear'> </div><div id='footer-wrapper'><b:section class='footer' id='footer'/></div></div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center --><div class='sidebar' id='sidebar-right'><b:section class='side' id='sidebar2' preferred='yes'>
+<b:widget id='Profile1' locked='false' title='About Me' type='Profile'>
+<b:includable id='main'>
+   <b:if cond='data:title != ""'>
+     <h2><data:title/></h2>
+   </b:if>
+   <div class='widget-content'>
+   <b:if cond='data:team == "true"'> <!-- team blog profile -->
+     <ul>
+       <b:loop values='data:authors' var='i'>
+         <li><a expr:href='data:i.userUrl'><data:i.display-name/></a></li>
+       </b:loop>
+     </ul>
 
-     &lt;b:else/&gt; &lt;!-- normal blog profile --&gt;
+     <b:else/> <!-- normal blog profile -->
 
-     &lt;b:if cond='data:photo.url != ""'&gt;
-       &lt;a expr:href='data:userUrl'&gt;&lt;img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/&gt;&lt;/a&gt;
-     &lt;/b:if&gt;
+     <b:if cond='data:photo.url != ""'>
+       <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+     </b:if>
 
-     &lt;dl class='profile-datablock'&gt;
-       &lt;dt class='profile-data'&gt;&lt;data:displayname/&gt;&lt;/dt&gt;
+     <dl class='profile-datablock'>
+       <dt class='profile-data'><data:displayname/></dt>
 
-       &lt;b:if cond='data:showlocation == "true"'&gt;
-         &lt;dd class='profile-data'&gt;&lt;data:location/&gt;&lt;/dd&gt;
-       &lt;/b:if&gt;
+       <b:if cond='data:showlocation == "true"'>
+         <dd class='profile-data'><data:location/></dd>
+       </b:if>
 
-       &lt;b:if cond='data:aboutme != ""'&gt;&lt;dd class='profile-textblock'&gt;&lt;data:aboutme/&gt;&lt;/dd&gt;&lt;/b:if&gt;
-     &lt;/dl&gt;
-     &lt;a class='profile-link' expr:href='data:userUrl'&gt;&lt;data:viewProfileMsg/&gt;&lt;/a&gt;
-   &lt;/b:if&gt;
+       <b:if cond='data:aboutme != ""'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+     </dl>
+     <a class='profile-link' expr:href='data:userUrl'><data:viewProfileMsg/></a>
+   </b:if>
 
-    &lt;b:include name='quickedit'/&gt;
-   &lt;/div&gt;
- &lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;b:widget id='HTML1' locked='false' title='My Other Internet Stuff' type='HTML'&gt;
-&lt;b:includable id='main'&gt;
- &lt;!-- only display title if it's non-empty --&gt;
- &lt;b:if cond='data:title != ""'&gt;
-   &lt;h2 class='title'&gt;&lt;data:title/&gt;&lt;/h2&gt;
- &lt;/b:if&gt;
- &lt;div class='widget-content'&gt;
-   &lt;data:content/&gt;
- &lt;/div&gt;
+    <b:include name='quickedit'/>
+   </div>
+ </b:includable>
+</b:widget>
+<b:widget id='HTML1' locked='false' title='My Other Internet Stuff' type='HTML'>
+<b:includable id='main'>
+ <!-- only display title if it's non-empty -->
+ <b:if cond='data:title != ""'>
+   <h2 class='title'><data:title/></h2>
+ </b:if>
+ <div class='widget-content'>
+   <data:content/>
+ </div>
 
- &lt;b:include name='quickedit'/&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;b:widget id='Followers1' locked='false' title='Followers' type='Followers'&gt;
-&lt;b:includable id='main'&gt;
- &lt;b:if cond='data:title != ""'&gt;
-   &lt;b:if cond='data:codeSnippet != ""'&gt;
-     &lt;h2 class='title'&gt;&lt;data:title/&gt;&lt;/h2&gt;
-   &lt;b:else/&gt;
-     &lt;b:if cond='data:totalFollowerCount != ""'&gt;
-       &lt;h2 class='title'&gt;&lt;data:title/&gt; (&lt;data:totalFollowerCount/&gt;)&lt;/h2&gt;
-     &lt;/b:if&gt;
-   &lt;/b:if&gt; 
- &lt;/b:if&gt;
- &lt;div class='widget-content'&gt;
-   &lt;div expr:id='data:widget.instanceId + "-wrapper"'&gt;
-     &lt;b:if cond='data:codeSnippet != ""'&gt;
-       &lt;div style='margin-right:2px;'&gt;
-         &lt;data:codeSnippet/&gt;
-       &lt;/div&gt;
-     &lt;b:else/&gt;
-       &lt;b:if cond='data:totalFollowerCount == ""'&gt;
-         &lt;span class='item-control following-not-admin'&gt;
-           &lt;b&gt;&lt;data:failureSnippet/&gt;&lt;/b&gt;
-         &lt;/span&gt;
-         &lt;span class='item-control blog-admin'&gt;
-           &lt;b&gt;&lt;data:adminFailureSnippet/&gt;&lt;/b&gt;
-         &lt;/span&gt;
-       &lt;b:else/&gt;
-         &lt;b:if cond='data:followingLinkPresent'&gt;
-           &lt;div class='follow-this profile-link item-control following-follow-this'&gt;
-             &lt;a expr:href='"javascript:_FollowersView._openPopup(\"" + data:followUri + "\");"'&gt;
-               &lt;data:followThisMessage/&gt;
-             &lt;/a&gt;
-           &lt;/div&gt;
-           &lt;div class='follow-this profile-link item-control following-stop-following-this'&gt;
-             &lt;a expr:href='"javascript:_FollowersView._openPopup(\"" + data:followUri + "\");"'&gt;
-               &lt;data:stopFollowingMessage/&gt;
-             &lt;/a&gt;
-           &lt;/div&gt;
-         &lt;/b:if&gt;
+ <b:include name='quickedit'/>
+</b:includable>
+</b:widget>
+<b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
+<b:includable id='main'>
+ <b:if cond='data:title != ""'>
+   <b:if cond='data:codeSnippet != ""'>
+     <h2 class='title'><data:title/></h2>
+   <b:else/>
+     <b:if cond='data:totalFollowerCount != ""'>
+       <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
+     </b:if>
+   </b:if> 
+ </b:if>
+ <div class='widget-content'>
+   <div expr:id='data:widget.instanceId + "-wrapper"'>
+     <b:if cond='data:codeSnippet != ""'>
+       <div style='margin-right:2px;'>
+         <data:codeSnippet/>
+       </div>
+     <b:else/>
+       <b:if cond='data:totalFollowerCount == ""'>
+         <span class='item-control following-not-admin'>
+           <b><data:failureSnippet/></b>
+         </span>
+         <span class='item-control blog-admin'>
+           <b><data:adminFailureSnippet/></b>
+         </span>
+       <b:else/>
+         <b:if cond='data:followingLinkPresent'>
+           <div class='follow-this profile-link item-control following-follow-this'>
+             <a expr:href='"javascript:_FollowersView._openPopup(\"" + data:followUri + "\");"'>
+               <data:followThisMessage/>
+             </a>
+           </div>
+           <div class='follow-this profile-link item-control following-stop-following-this'>
+             <a expr:href='"javascript:_FollowersView._openPopup(\"" + data:followUri + "\");"'>
+               <data:stopFollowingMessage/>
+             </a>
+           </div>
+         </b:if>
 
-         &lt;div class='followers-grid'&gt;
-           &lt;b:if cond='data:totalFollowerCount == 0'&gt;
-             &lt;div class='profile-link item-control following-follow-this'&gt;
-               &lt;data:emptyFollowersMessage/&gt;
-             &lt;/div&gt;
-           &lt;/b:if&gt;
-           &lt;!--
+         <div class='followers-grid'>
+           <b:if cond='data:totalFollowerCount == 0'>
+             <div class='profile-link item-control following-follow-this'>
+               <data:emptyFollowersMessage/>
+             </div>
+           </b:if>
+           <!--
            Relies on the js written out in navbar.gxp
-           --&gt;
-           &lt;b:loop values='data:followers' var='follower'&gt;
-             &lt;div class='follower'&gt;
-               &lt;a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'&gt;
-               &lt;img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='"this.onerror=null;this.src=\"" + data:anonFollowerImageUrl + "\";"' expr:onload='"setAttributeOnload(this, \"src\", \"" + data:follower.imageUrl + "\")"' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/&gt;
-               &lt;/a&gt;
-             &lt;/div&gt;
-           &lt;/b:loop&gt;
-           &lt;div class='clear'/&gt;
-         &lt;/div&gt;
+           -->
+           <b:loop values='data:followers' var='follower'>
+             <div class='follower'>
+               <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
+               <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='"this.onerror=null;this.src=\"" + data:anonFollowerImageUrl + "\";"' expr:onload='"setAttributeOnload(this, \"src\", \"" + data:follower.imageUrl + "\")"' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
+               </a>
+             </div>
+           </b:loop>
+           <div class='clear'/>
+         </div>
 
-         &lt;div class='followers-canvas profile-link'&gt;
-           &lt;data:followersFooterMessage/&gt;
-           &lt;span class='item-control following-not-admin'&gt;
-             &lt;a expr:href='data:followersUri'&gt;
-               &lt;data:viewAllMessage/&gt;
-             &lt;/a&gt;
-           &lt;/span&gt;
-           &lt;span class='item-control blog-admin'&gt;
-             &lt;a expr:href='data:manageFollowersUri'&gt;
-               &lt;data:manageFollowersMessage/&gt;
-             &lt;/a&gt;
-           &lt;/span&gt;
-         &lt;/div&gt;
-         &lt;/b:if&gt;
-     &lt;/b:if&gt;
-   &lt;/div&gt;
-   &lt;b:include name='quickedit'/&gt;
- &lt;/div&gt;
-&lt;/b:includable&gt;
-&lt;/b:widget&gt;
-&lt;/b:section&gt;&lt;p style='margin:0 0 0 20px'/&gt;&lt;/div&gt;
+         <div class='followers-canvas profile-link'>
+           <data:followersFooterMessage/>
+           <span class='item-control following-not-admin'>
+             <a expr:href='data:followersUri'>
+               <data:viewAllMessage/>
+             </a>
+           </span>
+           <span class='item-control blog-admin'>
+             <a expr:href='data:manageFollowersUri'>
+               <data:manageFollowersMessage/>
+             </a>
+           </span>
+         </div>
+         </b:if>
+     </b:if>
+   </div>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+</b:widget>
+</b:section><p style='margin:0 0 0 20px'/></div>
   
-   &lt;/div&gt; &lt;!-- /container --&gt;
-   &lt;/div&gt;
+   </div> <!-- /container -->
+   </div>
 
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 </code></pre></div>
 
 <script>
@@ -984,3 +985,4 @@ document.getElementById(id).onclick = function() {
 }
 </script>
 <!-- Script by hscripts.com -->
+{% endhighlight %}

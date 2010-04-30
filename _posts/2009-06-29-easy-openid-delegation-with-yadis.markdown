@@ -8,7 +8,8 @@ tags:
 - delegation
 - yadis
 ---
-<img src="http://openid.net/images/logo/openid-icon-100x100.png" class="left" /> Lets say you have a site somewhere that you want to use as your openid. The easiest way to delegate OpenID is to put these in your `<head>`
+<img src="http://openid.net/images/logo/openid-icon-100x100.png" class="left" />
+Lets say you have a site somewhere that you want to use as your openid. The easiest way to delegate OpenID is to put these in your `<head>`
 
     <link href='http://www.myopenid.com/server' rel='openid.server'/>
     <link href='http://ptarjan.myopenid.com/' rel='openid.delegate'/>
@@ -35,7 +36,7 @@ Enter : <a href="http://en.wikipedia.org/wiki/Yadis">Yadis</a>. I created a smal
 </xrds:XRDS>
 {% endhighlight %}
 
-And then redirect it if the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">HTTP Accept</a> header is `application/xrds+xml`. This is my index.php on `paulisageek.com</code> :
+And then redirect it if the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">HTTP Accept</a> header is `application/xrds+xml`. This is my index.php on `paulisageek.com` :
 
 {% highlight php %}
 <?php
@@ -52,7 +53,7 @@ if (strpos($_SERVER['HTTP_ACCEPT'], "application/xrds+xml") !== FALSE) {
 
 And Voila, it work as an <a href="http://openidenabled.com/resources/openid-test/checkup/start?openid_url=http%3A%2F%2Fpaulisageek.com">openid endpoint</a>.
 
-<b>Update:</b> You can also use <a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html">mod_rewrite</a> to get people to your openid.xml file : 
+**Update:** You can also use <a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html">mod_rewrite</a> to get people to your openid.xml file : 
 
 {% highlight apache %}
     RewriteCond %{HTTP_ACCEPT} application/xrds\+xml

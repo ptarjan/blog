@@ -6,9 +6,16 @@ tags:
 - data
 - hack
 ---
+
+<style>
+td.num {
+  text-align: right;
+}
+</style>
+
 I simply wanted to know *Which file extensions are used on the internet*?
 
-So I wrote a little program ([webExtension.py]("http://paulisageek.com/webExtension/webExtension.py")) and a half million calls to Google later, we have some interesting data.
+So I wrote a little program ([webExtension.py](http://paulisageek.com/webExtension/webExtension.py)) and a half million calls to Google later, we have some interesting data.
 
 First, the raw data:
 
@@ -27,13 +34,7 @@ First, the raw data:
 <a href="http://paulisageek.com/webExtension/all_numsort.txt">All</a>
 <a href="http://paulisageek.com/webExtension/all_numsort_pruned.txt">All (Pruned)</a>
 
-<style>
-td.num {
-  text-align: right;
-}
-</style>
-
-<table style="margin:auto; text-align:left">
+<table>
 <tr><td>
   <a href="http://www.google.com/search?q=ext%3Ahtml">html</a>
 </td><td class="num">

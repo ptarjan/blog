@@ -10,3 +10,8 @@ img.right {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+.center {
+  margin: auto;
+  text-align: center;
+}

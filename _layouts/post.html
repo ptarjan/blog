@@ -35,5 +35,7 @@
     
       {{ content }}
     
-      <em>Posted on {{ page.date | date_to_long_string }}</em> by <a href="http://paultarjan.com">Paul Tarjan</a>
+      <div>
+        <em>Posted on {{ page.date | date_to_long_string }}</em> by <a href="http://paultarjan.com">Paul Tarjan</a>
+      </div>
 {% include footer.html %}

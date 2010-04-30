@@ -1,8 +1,0 @@
---- 
-permalink: /2008/09/pingbox.html
-layout: post
-title: Pingbox
-tags: []
-
----
-I just added the <a href='http://messenger.yahoo.com/pingbox/'>YMessenger Pingbox</a>, so you can IM me. Check it out on the side of the main page.

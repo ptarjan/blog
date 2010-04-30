@@ -50,7 +50,7 @@ Guitar: Surbhi
  Gap:   Paul
 Bass:   Michelle
  Gap:   Emily
-Press &lt;Enter&gt; once you finished a round: 
+Press <Enter> once you finished a round: 
 
 Drums:  Paul
 Vocals: Ziga
@@ -59,7 +59,7 @@ Guitar: Emily
  Gap:   Michelle
 Bass:   Melanie
  Gap:   Martin
-Press &lt;Enter&gt; once you finished a round: 
+Press <Enter> once you finished a round: 
 
 Drums:  Surbhi
 Vocals: Martin
@@ -68,7 +68,7 @@ Guitar: Michelle
  Gap:   Melanie
 Bass:   Emily
  Gap:   Ziga
-Press &lt;Enter&gt; once you finished a round: q
+Press <Enter> once you finished a round: q
 {% endhighlight %}
 
 and in `rockband.py`

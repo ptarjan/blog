@@ -9,7 +9,6 @@ tags:
 ---
 My Halloween costume.  A Real Live <img src='http://l.yimg.com/a/i/eu/sch/smd/searchmonkey_logo147x150.gif' />
 
-<p>
 <a href='http://www.flickr.com/photos/ptarjan/2998335384/in/set-72157608604822806/'><img src='http://farm4.static.flickr.com/3182/2998335384_d96d398562.jpg' /></a>
 <a href='http://www.flickr.com/photos/ptarjan/2997498589/in/set-72157608604822806/'><img src='http://farm4.static.flickr.com/3046/2997498589_0503b6bbf5.jpg' /></a>
 <a href='http://www.flickr.com/photos/ptarjan/2997419755/in/set-72157608604822806/'><img src='http://farm4.static.flickr.com/3058/2997419755_831d9e37a8.jpg' /></a>

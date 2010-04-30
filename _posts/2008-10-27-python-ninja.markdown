@@ -9,11 +9,11 @@ tags:
 ---
 I've been doing a few programming problems from <a href='http://projecteuler.net'>Project Euler</a> and having a ton of fun. Here are a few functions that I found useful and I'm sure someone else would as well.
 
-<h3>Prime Iteration</h3>
+### Prime Iteration
 
 If you want to go through a list of integers and also know their prime factors, you could create some functions (the names should tell you what they do):
 
-<pre class="code">
+{% highlight python %}
 def primeFactor(n, primeSet = None) :
         ret = []
         if primeSet == None : primeSet = primesToN(int(n ** 0.5))
@@ -57,19 +57,19 @@ def primes() :
                         yield q
                         D[q*q] = 2*q
                 q += 2
-</pre>
+{% endhighlight %}
 
 And then you could just do this:
 
-<pre class="code">
+{% highlight python %}
 primeRange = itertools.imap(lambda x : (tuple(util.primeFactor(x)), x), xrange(2, 1000))
 for factors, number in primeRange :
     # do something with the factors and number
-</pre>
+{% endhighlight %}
 
 Now, this gets REALLY slow once you hit big numbers (like a million). So I wrote a generator that will go through all the numbers to n, generating them from primes instead of finding the primes from the number.
 
-<pre class="code">
+{% highlight python %}
 for factors, number in prange(1000) :
    # do something with factors and number
 
@@ -79,11 +79,11 @@ primeRange = itertools.imap(lambda x : (tuple(util.primeFactor(x)), x), xrange(2
 
 range(2, 1000) == prange(1000) # False
 set( range(2, 1000) ) == set( prange(1000) ) # True
-</pre>
+{% endhighlight %}
 
 And finally the prange function:
 
-<pre class="code">
+{% highlight python %}
 def prange(n) :
         """
 prange(n) -> generator
@@ -163,11 +163,11 @@ walks an iterator returning a tuple of (evalFunc(ret), ret) for each row, where 
                                 iters[num] = generator()
                                 nums[num] = iters[num].next()
 
-</pre>
+{% endhighlight %}
 
 Or if you need the primes in order of unique prime factors:
 
-<pre class="code">
+{% highlight python %}
 def prangePrimeOrder(n) :
         """
 prange(n) -> generator
@@ -200,6 +200,6 @@ e.g.
                         for pownum, nums in powers(comb, n) :
                                 yield (comb, nums), pownum
                 if done : break
-</pre>
+{% endhighlight %}
 
 If anyone can speed up my code, please submit any changes. And feel free to use the code however you see fit. BSD License.

@@ -15,7 +15,7 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 {% for post in site.posts limit:5 %}
 ## [{{ post.title }}]({{ post.url }})
   {{ post.content }}
-  <em>Posted on {{ post.date | date_to_long_string }}</em> by [Paul Tarjan](http://paultarjan.com)
+  *Posted on {{ post.date | date_to_long_string }}* by [Paul Tarjan](http://paultarjan.com)
 {% endfor %}
 
 ## Archive

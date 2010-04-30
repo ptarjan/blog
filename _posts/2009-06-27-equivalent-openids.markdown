@@ -28,29 +28,30 @@ then the website that I logged in to should make the <a href="http://query.yahoo
 
 which returns something like
 
-<query&gt;
-    <results&gt;
-        <result&gt;
-            <trustsme&gt;http://www.paulisageek.com/</trustsme&gt;
-            <trustsme&gt;http://www.linkedin.com/pub/dir/paul/tarjan</trustsme&gt;
-            <trustsme&gt;http://stackoverflow.com/users/90025/ptarjan</trustsme&gt;
-            <trustsme&gt;http://www.mybloglog.com/buzz/members/ptarjan/</trustsme&gt;
-            <trustsme&gt;http://digg.com/users/paralax/</trustsme&gt;
-            <trustsme&gt;http://www.google.com/profiles/114701835473476527933</trustsme&gt;
-            <trustsme&gt;http://www.flickr.com/photos/ptarjan/</trustsme&gt;
-            <trustsme&gt;http://www.linkedin.com/in/paultarjan</trustsme&gt;
-            <trustsme&gt;http://twitter.com/ptarjan</trustsme&gt;
-            <trustsme&gt;http://github.com/ptarjan</trustsme&gt;
-            <trustsme&gt;http://www.hulu.com/profiles/ptarjan</trustsme&gt;
-            <trustsme&gt;http://stackoverflow.com/users/90025/paul-tarjan</trustsme&gt;
-            <trustsme&gt;http://friendfeed.com/ptarjan</trustsme&gt;
-            <trustsme&gt;http://www.google.com/profiles/ptarjan</trustsme&gt;
-            <trustsme&gt;http://www.flickr.com/photos/78332988@N00/</trustsme&gt;
-            <trustsme&gt;sgn://twitter.com/?pk=14757201</trustsme&gt;
-        </result&gt;
-    </results&gt;
-</query&gt;
-</pre></code></p>
+{% highlight xml %}
+<query>
+    <results>
+        <result>
+            <trustsme>http://www.paulisageek.com/</trustsme>
+            <trustsme>http://www.linkedin.com/pub/dir/paul/tarjan</trustsme>
+            <trustsme>http://stackoverflow.com/users/90025/ptarjan</trustsme>
+            <trustsme>http://www.mybloglog.com/buzz/members/ptarjan/</trustsme>
+            <trustsme>http://digg.com/users/paralax/</trustsme>
+            <trustsme>http://www.google.com/profiles/114701835473476527933</trustsme>
+            <trustsme>http://www.flickr.com/photos/ptarjan/</trustsme>
+            <trustsme>http://www.linkedin.com/in/paultarjan</trustsme>
+            <trustsme>http://twitter.com/ptarjan</trustsme>
+            <trustsme>http://github.com/ptarjan</trustsme>
+            <trustsme>http://www.hulu.com/profiles/ptarjan</trustsme>
+            <trustsme>http://stackoverflow.com/users/90025/paul-tarjan</trustsme>
+            <trustsme>http://friendfeed.com/ptarjan</trustsme>
+            <trustsme>http://www.google.com/profiles/ptarjan</trustsme>
+            <trustsme>http://www.flickr.com/photos/78332988@N00/</trustsme>
+            <trustsme>sgn://twitter.com/?pk=14757201</trustsme>
+        </result>
+    </results>
+</query>
+{% endhighlight %}
 
 and then walk down that list starting at the top, looking at all their user accounts to see if any matches. The first match is the account they should be logged into.
 
