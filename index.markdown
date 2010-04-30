@@ -12,7 +12,7 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 
 <div style="clear:both"></div>
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:1 %}
 ## [{{ post.title }}]({{ post.url }})
   {{ post.content }}
   *Posted on {{ post.date | date_to_long_string }}* by [Paul Tarjan](http://paultarjan.com)
@@ -20,11 +20,4 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 
 ## Archive
 
-<ul id="archive">
-{% for post in site.posts %}
-  <li>
-    <abbr>{{ post.date | date_to_string }}</abbr>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+{% include archive.html %}

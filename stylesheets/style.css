@@ -81,3 +81,6 @@ img {
 pre {
   overflow: auto;
 }
+#archive .date {
+  text-align: right;
+}
