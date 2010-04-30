@@ -19,7 +19,7 @@ I exported my existing blog (Settings -> Basic -> Export Blog) to an .xml file. 
 $ ruby ...stuff... "Jekyll::Blogger.process('feed.xml')"
 {% endhighlight %}
 
-It made me a [_posts](http://github.com/ptarjan/ptarjan.github.com/tree/master/_posts/) directory. I then hand tuned each file to be in markdown instead of html and voila, you now have my new blog. I made jekyl match the permalink structure of my old blog, so no links should break. Let me know if anything goes wrong.
+It made me a [\_posts](http://github.com/ptarjan/ptarjan.github.com/tree/master/_posts/) directory. I then hand tuned each file to be in markdown instead of html and voila, you now have my new blog. I made jekyl match the permalink structure of my old blog, so no links should break. Let me know if anything goes wrong.
 
 Hopefully I will post more with this new setup. If anyone have any subject requests let me know, and general comments are always welcome (like the format, hate the format, the RSS is broken, etc).
 
