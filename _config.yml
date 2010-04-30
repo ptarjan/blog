@@ -1,5 +1,5 @@
-server: true
 pygments: true
 permalink: /:categories/:year/:month/:title.html
-auto: true
+# server: true
+# auto: true
 paginate: 10
