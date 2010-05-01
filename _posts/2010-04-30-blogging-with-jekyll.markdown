@@ -7,7 +7,7 @@ tags:
 ---
 [<img src="/images/jekyll.png" class="right" width="200" alt="jekyl">](http://jekyllrb.com/)
 
-As you may, or many not have noticed, I haven't been blogging much lately. I think this is due in part to how I was trying to use blogger. I was inserting my own html into the text box while blogging, and it was just a real pain to build a blog post. I had lots of control, but it was too much of a pain (and I'm lazy, so it didn't happy often).
+As you may, or may not have noticed, I haven't been blogging much lately. I think this is due in part to how I was trying to use blogger. I was inserting my own html into the text box while blogging, and it was just a real pain to build a blog post. I had lots of control, but it was too much of a pain (and I'm lazy, so it didn't happen often).
 
 I've also been really admiring clean and simple blog templates whenever I see them, and switching to that in blogger would require me to backport little things I would do in each post. 
 
