@@ -16,8 +16,25 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 ## [{{ post.title }}]({{ post.url }})
   {{ post.content }}
   *Posted on {{ post.date | date_to_long_string }}* by [Paul Tarjan](http://paultarjan.com)
+  
+ [{{ post.title }}]({{ post.url }}#disqus_thread)
 {% endfor %}
 
 ## Archive
 
 {% include archive.html %}
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+  var links = document.getElementsByTagName('a');
+  var query = '?';
+  for(var i = 0; i < links.length; i++) {
+  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+  }
+  }
+  document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/paulisageek/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
