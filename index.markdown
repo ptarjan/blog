@@ -2,6 +2,8 @@
 layout: root
 title: Paul Tarjan's Blog
 ---
+## A CROSS BETWEEN USEFUL THINGS AND PAUL TARJAN'S RAMBLINGS.
+
 [<img src="http://paultarjan.com/paul.jpg" height="64" width="64" alt="Paul Tarjan" id="paul" />](http://paultarjan.com)
 
 I was the Tech Lead for Yahoo! [SearchMonkey](http://developer.yahoo.com/searchmonkey/).
