@@ -7,7 +7,7 @@ tags:
 - audio
 - song
 ---
-I wrote a little song for my product at work : <a href='http://developer.yahoo.com/searchmonkey'>SearchMonkey</a> (or Search Monkey if you want to misspell it).
+I wrote a little song for my product at work, [SearchMonkey](http://developer.yahoo.com/searchmonkey) \(or Search Monkey if you want to misspell it\).
 
 Enjoy :) And please suggest more verses or make a video with it :)
 
