@@ -1,1 +1,2 @@
+git push
 ssh paulisageek.com -C "cd ~/blog.paulisageek.com; ./build"
