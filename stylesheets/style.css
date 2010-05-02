@@ -75,12 +75,12 @@ h1 {
     padding: 8px 0 6px;
 }
 h2 {
-    font-size: 125%;
-    padding: 6px 0 4px;
+    font-size: 100%;
+    padding: 4px 0 3px;
 }
 h3 {
-    font-size: 100%;
-    padding: 4px 0 2px;
+    font-size: 75%;
+    padding: 2px 0 1px;
 }
 ol li {
     list-style :            decimal;
