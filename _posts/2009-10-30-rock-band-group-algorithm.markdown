@@ -22,10 +22,10 @@ Given these requirements, here is what we do:
 1. Lay the 4 instruments out and randomly put 4 people on them, and intersperse the remaining people in the gaps between instruments
 1. Cycle everyone through every instrument and every gap (clockwise), until we arrive back at the initial state
 1. Shuffle everyone like this:
- 1. Group the people into 2 groups. Those on instruments (size `4`) and those not (size `n-4`)
- 1. Pick 4 people from the non-instruments and randomly put them on instruments
- 1. If you have less than 4 people on non-instruments, select random people to stay on instruments, but change their instruments randomly
- 1. Randomly permute the remaining people into the open spots
+  1. Group the people into 2 groups. Those on instruments (size `4`) and those not (size `n-4`)
+  1. Pick 4 people from the non-instruments and randomly put them on instruments
+  1. If you have less than 4 people on non-instruments, select random people to stay on instruments, but change their instruments randomly
+  1. Randomly permute the remaining people into the open spots
 1. Play another round and then re-cycle
 
 ## Notes
