@@ -1,5 +1,12 @@
 pygments: true
-permalink: /:categories/:year/:month/:title.html
+# permalink: /:title
+redirect_permalinks:
+  - none
+  - date
+  - pretty
+  - :title/
+  - /:year/:month/:title.html
+
 # server: true
 # auto: true
 paginate: 10
