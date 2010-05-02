@@ -1,2 +1,2 @@
 git push
-ssh paulisageek.com -C "cd ~/blog.paulisageek.com; ./build"
+ssh paulisageek.com -C "cd ~/blog.paulisageek.com; rm -rf _site; ./build"
