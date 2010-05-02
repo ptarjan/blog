@@ -58,7 +58,7 @@ img#paul {
   clear: both;
 }
 
-h1, h2 {
+h1, h2, h3 {
     border-top:     2px solid #333;
     border-bottom:  1px solid #666;
     font-size:      1em;
@@ -73,6 +73,14 @@ h1, h2 {
 h1 {
     font-size: 150%;
     padding: 8px 0 6px;
+}
+h2 {
+    font-size: 125%;
+    padding: 6px 0 4px;
+}
+h3 {
+    font-size: 100%;
+    padding: 4px 0 2px;
 }
 ol li {
     list-style :            decimal;
@@ -95,4 +103,8 @@ pre {
   padding-right: 20px;
   color: #aaa;
   font-family: Monaco, 'Courier New', monospace;
+}
+
+#dsq-new-post .dsq-dc-logo {
+  display: none;
 }
