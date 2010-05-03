@@ -17,7 +17,14 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 {% for post in site.posts limit:1 %}
 ## [{{ post.title }}]({{ post.url }})
   {{ post.content }}
-  *Posted on {{ post.date | date_to_long_string }}* by [Paul Tarjan](http://paultarjan.com)
+      
+  <div id="like_button">
+    <iframe src="http://www.facebook.com/plugins/like.php?show_faces=false&href=http://blog.paulisageek.com{{ page.url }}" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:23px"> </iframe>
+  </div>
+
+  <div id="posted_on">
+    <em>Posted on {{ post.date | date_to_long_string }}</em> by <a href="http://paultarjan.com">Paul Tarjan</a>
+  </div>
   
  [{{ post.title }}]({{ post.url }}#disqus_thread)
 {% endfor %}
