@@ -13,15 +13,15 @@ Basically, we have a cluster of EC2 machines running hadoop with the data loaded
 
 Here is the README about the data
 
-  (1) "ydata-ysm-keyphrase-bid-imp-click-v1_0.gz" contains the following fields:
+    (1) "ydata-ysm-keyphrase-bid-imp-click-v1_0.gz" contains the following fields:
 
-      0 day
-      1 anonymized account_id
-      2 rank
-      3 anonymized keyphrase (expressed as list of anonymized keywords)
-      4 avg bid
-      5 impressions
-      6 clicks
+    0 day
+    1 anonymized account_id
+    2 rank
+    3 anonymized keyphrase (expressed as list of anonymized keywords)
+    4 avg bid
+    5 impressions
+    6 clicks
 
 Snippet:
 
