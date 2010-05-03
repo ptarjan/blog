@@ -1,0 +1,34 @@
+---
+title: Graph Likes Over Time
+layout: post
+tags:
+  - facebook
+  - webnumbr
+---
+<div class="right">
+  <iframe src="http://webnumbr.com/likes-on-likebutton-me.all.graph" style="width: 400px; height: 200px; float:right" allowtransparency="true" frameborder="0"></iframe>
+</div>
+
+<p>
+Wouldn't it be nice to see how many <a href="http://developers.facebook.com/docs/reference/plugins/like">likes</a> a page gets over time? Actually, it's really simple with <a href="http://webnumbr.com">webnumbr</a>:
+</p>
+
+<ol>
+  <li>Enter the url you want to track into the box below</li>
+  <li>Click 'Create Numbr' on webnumbr</li>
+  <li>Watch your pretty graph</li>
+</ol>
+
+<form action="http://webnumbr.com/edit" id="webnumbr-like">
+<input type="hidden" name="xpath" value="/html" />
+<input id="like_url" size="80" value="http://" />
+<input type="submit" value="Graph Likes" />
+</form>
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script>
+$('form#webnumbr-like').submit(function() {
+  $('<input/>').attr('name', 'url').val('http://www.facebook.com/widgets/like.php?href=' + $('#like_url').val()).appendTo(this);
+  $('<input/>').attr('name', 'title').val('Likes on ' + $('#like_url').val().replace('http://','')).appendTo(this);
+});
+</script>

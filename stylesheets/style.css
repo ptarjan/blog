@@ -108,3 +108,7 @@ pre {
 #dsq-new-post .dsq-dc-logo {
   display: none;
 }
+
+#like_button {
+  margin-top: 20px;
+}
