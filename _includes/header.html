@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:og="http://opengraphprotocol.org/schema/">
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
@@ -16,3 +16,8 @@ if (window.location.href.indexOf(host) !== 0 &&
   window.location.href = host + window.location.pathname;
 }
     </script>
+
+    <meta property="og:image" content="http://paultarjan.com/paul.jpg" /> 
+    <meta property="og:site_name" content="Paul Tarjan's Blog" />
+    <meta preoprty="og:type" content="website" />
+    <link rel="image_src" href="http://paultarjan.com/paul.jpg" />
