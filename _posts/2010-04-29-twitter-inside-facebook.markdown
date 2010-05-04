@@ -1,4 +1,5 @@
 ---
+permalink: /2010/04/29/twitter-inside-facebook.html
 layout: post
 title: Twitter inside Facebook
 tags: 

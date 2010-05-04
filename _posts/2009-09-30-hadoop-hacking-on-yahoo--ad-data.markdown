@@ -139,4 +139,4 @@ and it should print out :
 
 And then you can put it in a spreadsheet and make a pretty chart. Did you know half of our money comes from the #1 Search Ad?
 
-<iframe src="http://spreadsheets.google.com/pub?key=tK-7SP4HSyN4F9Z91MVyR_Q&gid=1" style="height:500px; width: 100%"></iframe>
+<iframe src="http://spreadsheets.google.com/pub?key=tK-7SP4HSyN4F9Z91MVyR_Q&gid=1" style="height:500px; width: 100%">?</iframe>

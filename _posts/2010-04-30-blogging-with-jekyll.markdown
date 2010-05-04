@@ -1,4 +1,5 @@
 ---
+permalink: /2010/04/30/blogging-with-jekyll.html
 layout: post
 title: Blogging With Jekyll
 tags: 

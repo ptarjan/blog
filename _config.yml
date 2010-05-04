@@ -1,10 +1,11 @@
 pygments: true
-# permalink: /:title
+permalink: /:year/:month/:title.html
 redirect_permalinks:
   - none
   - date
   - pretty
   - :title/
+  - /:year/:month/:day/:title.html
   - /:year/:month/:title.html
 
 # server: true

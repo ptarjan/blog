@@ -1,4 +1,5 @@
 ---
+permalink: /2010/05/02/dont-throw-your-money-away.html
 layout: post
 title: Don't throw your money away
 tags: 
