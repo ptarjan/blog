@@ -5,6 +5,7 @@ redirect_permalinks:
   - date
   - pretty
   - :title/
+  - :title.html
   - /:year/:month/:day/:title.html
   - /:year/:month/:title.html
 
