@@ -5,6 +5,7 @@ title: Don't Throw Your Money Away
 tags: 
 - amazon
 - birthday
+image: http://upload.wikimedia.org/wikipedia/en/7/74/Amazon.com_logo.svg
 ---
 If you are ever buying something from Amazon, I can get 4% of your whole purchase as a 'referral fee'. If you let me know what you bought and your paypal, I'm more than happy to send you the money, or I'll buy you a drink in your honour.
 

@@ -5,6 +5,7 @@ title: Converting from MyISAM to InnoDB takes a long time
 tags: 
 - sql
 - mysql
+image: http://upload.wikimedia.org/wikipedia/en/6/62/MySQL.svg
 ---
 Wow, I didn't think that with around 80 million rows, MySQL would take 7 hours to convert from MyISAM to InnoDB. 
 

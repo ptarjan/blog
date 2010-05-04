@@ -7,9 +7,8 @@ tags:
 - yahoo
 - hack
 - geek
+image: http://farm4.static.flickr.com/3456/3834932550_f350e29fff_o.jpg
 ---
-[<img src="http://farm4.static.flickr.com/3456/3834932550_f350e29fff_o.jpg" class="left" />](http://www.flickr.com/photos/ptarjan/3834932550/)
-
 Friday was my favorite quarterly event at Yahoo, hackday! It's the internal version of the <a href="http://developer.yahoo.com/hacku/">hacku</a> event that I help with. I want to chronicle my experience since it was my favourite hackday to-date. I'm being overly vague about the project since it might actually get shipped.  
 
 This year, I had an idea mulling in my head, talked to a few people, shared it on the internal hacker list and got a ton of great buzz. I started the ball rolling with some editorial work and design. Then our SearchMonkey community manager, <a href="http://goer.org/">Evan Goer</a> lept on the idea, and did a ton more of the editorial work. His enthusiasm was contagious.  

@@ -7,8 +7,8 @@ tags:
 - xml
 - delegation
 - yadis
+image: http://openid.net/images/logo/openid-icon-100x100.png
 ---
-<img src="http://openid.net/images/logo/openid-icon-100x100.png" class="left" />
 Lets say you have a site somewhere that you want to use as your openid. The easiest way to delegate OpenID is to put these in your `<head>`
 
     <link href='http://www.myopenid.com/server' rel='openid.server'/>

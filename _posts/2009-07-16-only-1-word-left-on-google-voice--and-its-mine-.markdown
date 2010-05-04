@@ -10,9 +10,8 @@ tags:
 - google
 - physics
 - geek
+image: http://www.iconspedia.com/uploads/16323851941876579956.png
 ---
-<img src="http://www.iconspedia.com/uploads/16323851941876579956.png" class="left" /> 
-
 I recently got an invitation to <a href="https://www.google.com/voice/">google voice</a> and have been trying to come up with a good number. I tried all the first 10 digits of <a href="http://www.ebyte.it/library/educards/constants/ConstantsOfPhysicsAndMath.html">physics constants</a> and every single 10 letter word in the ubuntu /usr/share/dict/words. Out of all of that, there was <b>ONLY 1</b> that was available.   
 
 So I give you my new phone number (which is very easy to memorize, hehe) :  

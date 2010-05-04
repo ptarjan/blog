@@ -7,9 +7,8 @@ tags:
 - twitter
 - announcement
 - hack
+image: http://t2fb.paulisageek.com/images/t2fb.png
 ---
-[<img src="http://t2fb.paulisageek.com/images/t2fb.png" class="right">](http://t2fb.paulisageek.com)
-
 With the launch of Facebook's like button, I hoped I could do something that I've wanted to do for a while. Create a mirror page of each twitter page inside of facebook. That way, I can just "like" that page, and now I don't have to have to check facebook AND twitter.
 
 And voila! It actually worked! Try it for yourself.

@@ -7,8 +7,8 @@ tags:
 - openidavatar
 - gravatar
 - announcement
+image: http://paulisageek.com/openidavatar/avatar/9884a6211d8e83a7770550708f5785cf?email_md5=b3bb70a4bace7f9bd49f48b149ab95f9&size=200
 ---
-<img src="http://paulisageek.com/openidavatar/avatar/9884a6211d8e83a7770550708f5785cf?email_md5=b3bb70a4bace7f9bd49f48b149ab95f9" class="left" />
 [gravatar](http://gravatar.com) does a wonderful job with email avatars, but they have failed to support OpneIDs. I built a simple interface for associating your OpenID with an email, which is then proxied to gravatar.   
 
 So I give you <a href="http://paulisageek.com/openidavatar/">OpenID Avatar</a>.  

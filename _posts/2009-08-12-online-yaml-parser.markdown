@@ -7,9 +7,8 @@ tags:
 - json
 - geek
 - announcement
+image: http://swik.net/swikIcons/img-240-96x96.jpg
 ---
-<a href="http://yaml-online-parser.appspot.com/"><img src="http://swik.net/swikIcons/img-240-96x96.jpg" class="left" /></a> 
-
 So, today I needed to verify some <a href="http://yaml.org">YAML</a> was correct, and eyeball the <a href="http://json.org">JSON</a> output. I couldn't find a good tool online that did what I wanted, so I wrote my own in about an hour.  
 
 I give you the <a href="http://yaml-online-parser.appspot.com/">Online YAML Parser</a>.   

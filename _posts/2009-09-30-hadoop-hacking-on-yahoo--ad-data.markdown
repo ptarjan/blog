@@ -6,6 +6,7 @@ tags:
 - cmu
 - hacku
 - hack
+image: http://upload.wikimedia.org/wikipedia/en/8/8a/Hadoop-logo.jpg
 ---
 At the <a href="http://developer.yahoo.com/hacku/cmu.html">CMU Hackday</a> we're letting students play with an anonymized snapshot of our advertising data. (If you want access, email <a href="mailto:jamieloc [NOSPAM] yahoo-inc.com?subject=Can I have the Yahoo hadoop data, please&body=Can you send me the thing to sign please.">Jamie</a>, sign something, and we'll give you a key).
 

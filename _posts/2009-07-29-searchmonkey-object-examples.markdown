@@ -7,8 +7,8 @@ tags:
 - searchmonkey
 - rdfa
 - examples
+image: http://l.yimg.com/a/i/eu/sch/smd/searchmonkey_logo147x150.gif
 ---
-<a href="http://developer.yahoo.com/searchmonkey"><img src="http://l.yimg.com/a/i/eu/sch/smd/searchmonkey_logo147x150.gif" class="right" height="100" /></a> 
 So, a few weeks ago we released <a href="http://developer.search.yahoo.com/start">SearchMonkey Objects</a> that let web developers markup any of our 8 object formats for their pages. These pages included examples and explanations.  
 
 To help people understand it a bit more, I marked up a few real-life pages using our SearchMonkey objects.  

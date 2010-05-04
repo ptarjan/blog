@@ -1,17 +1,28 @@
 /* These are styles that are expected in the posts */
-img.left {
-  float: left;
-  margin-right: 20px;
+img.left, img.right {
   margin-bottom: 20px;
+  max-width: 200px;
+  max-height: 400px;
 }
-
+img.left {
+  margin-right: 20px;
+  float: left;
+}
 img.right {
   float: right;
   margin-left: 20px;
-  margin-bottom: 20px;
 }
 
 .center {
   margin: auto;
   text-align: center;
+}
+
+pre, .box {
+  margin: 25px;
+  padding: 25px;
+  background: ghostWhite;
+  border: #dedede 1px solid;
+  color: #444;
+  overflow: auto;
 }

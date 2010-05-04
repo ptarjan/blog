@@ -6,9 +6,8 @@ tags:
 - games
 - rock band
 - video games
+image: http://upload.wikimedia.org/wikipedia/en/e/e0/Rock_band_cover.jpg
 ---
-<img src="http://upload.wikimedia.org/wikipedia/en/e/e0/Rock_band_cover.jpg" class="right">
-
 I often play [Rock Band](http://en.wikipedia.org/wiki/Rock_Band_%28video_game%29) with my friends, but we have a tough time deciding who will play what part and for how long. Here is what we've come up with as requirements
 
 * Everyone must play every instrument an equal amount of time - To avoid hogging

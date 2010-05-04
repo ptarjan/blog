@@ -5,9 +5,8 @@ title: stdicon
 tags: 
 - hack
 - announcment
+image: http://stdicon.com/mp3
 ---
-[<img src="http://stdicon.com/mp3" class="left">](http://www.stdicon.com)
-
 From the idea of <a href="http://twitter.com/progrium/status/3373976979">progrium</a> I did a fun little hack last night.  
 
 (mimetype or file extension) -> icon == <a href="http://stdicon.com">stdicon.com</a>  

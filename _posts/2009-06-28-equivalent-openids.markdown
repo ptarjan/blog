@@ -8,8 +8,8 @@ tags:
 - equivilent openids
 - internet
 - geek
+image: http://openid.net/images/logo/openid-icon-100x100.png
 ---
-<img src="http://openid.net/images/logo/openid-icon-100x100.png" class="left" />
 I've been having a big dilemma whenever I use an openid. Which do I pick from the 8 that could be me? Talking to <a href="http://josephsmarr.com/">Joseph Smarr</a> at the <a href="https://labs.mozilla.com/2009/06/mozilla-labs-meetup-thursday-625/">Mozilla labs meetup</a> we stumbled upon a solution. <a href="http://microformats.org/wiki/rel-me">rel-me</a>.
 
 I should register on any site with an openid that supports at least 1 rel-me link. Most sites where you can set your "homepage" will add the attribute <b>rel="me"</b> on the link. That basically says that "I am also over there". If you can only link to one homepage, just make sure that from that homepage you can link out to other things you own on the internet. If you can put multiple <b>rel="me"</b> links, then just list everything you own. I link to my <a href="http://friendfeed.com/ptarjan">friendfeed.com/ptarjan</a> which has <b>rel="me"</b> links to all my other "stuff".

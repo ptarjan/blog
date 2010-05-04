@@ -7,9 +7,8 @@ tags:
 - worldofwarcraft
 - scraping
 - hack
+image: http://userlogos.org/files/logos/ocelot113/WOWarmory%28white%29.jpg
 ---
-<img src="http://userlogos.org/files/logos/ocelot113/WOWarmory%28white%29.jpg" class="left">
-
 I needed a list of as many <a href="http://worldofwarcraft.com">World of Warcraft</a> players as I could find. Sadly, blizzard wasn't giving this out on <a href="http://wowarmory.com">wowarmory</a> and neither were any other sites I could find. Thankfully, I'm good at web scraping.  
 
 So, I went through each region, server, guild, and character on <a href="http://wowjutsu.com/">wowjustsu</a> and pulled out 1.75 Million characters.   

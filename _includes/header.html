@@ -17,8 +17,10 @@ if (window.location.href.indexOf(host) !== 0 &&
 }
     </script>
 
-    <meta property="og:image" content="http://paultarjan.com/paul.jpg" /> 
+    {% if page.image %}
+    <link rel="image_src" href="{{ page.image }}" />
+    <meta property="og:image" content="{{ page.image }}" /> 
+    {% endif %}
     <meta property="og:site_name" content="Paul Tarjan's Blog" />
     <meta property="og:type" content="website" />
     <meta property="fb:admins" content="218471" />
-    <link rel="image_src" href="http://paultarjan.com/paul.jpg" />
