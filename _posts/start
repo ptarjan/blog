@@ -1,0 +1,1 @@
+cp template.markdown `date +%Y-%m-%d`-untitled.markdown

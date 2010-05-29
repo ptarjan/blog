@@ -1,0 +1,25 @@
+---
+layout: post
+title: Slogging
+tags: 
+- hacks
+image: /images/yelp_review.png
+---
+I like to follow Nike's law of hacking: **Just Do It**. Sadly, I'm a little tight on time right now and want to get some feedback on this idea before I actually build it.
+
+I really like Wikiepdia's model for articles. A [template](http://en.wikipedia.org/wiki/Template:Fact) with some [cool](http://en.wikipedia.org/wiki/Monaco) [facts](http://en.wikipedia.org/wiki/1984) and a few sections for longer text. Often, I want to write posts and updates like this, but various excuses always crop up. I forget what I did last time, it doesn't exactly fit my new post, I get lazy and stop posting, etc. 
+
+Sometimes I write one-off articles, but most times my posts will be similar. Video game reviews, product announcements, trip photos, etc. I wish I had a nice way to define templates and fill them in. Sure, that's not too hard, there are billions of template engines.
+
+The really cool part would be when **different** people use the **same** templates. Then you can cross reference them and building a micro site around those templates. One such template is Yelp reviews; another is Quora questions. You could build up which templates are most used, which keys in which templates are most filled in, which values are allowed in which fields, and grow these templates organically. So when I sit down to write about Super Mario Galaxy 2, there is already a high quality community template for video game reviews where I put in the game title, my hours played, my dates played, enjoyable rating, and a little blurb on how I felt. I don't have to think about what would be good facts to write down, someone smarter than me already did that. Then an agregator can look through all the reviews and show an interesting view from all posters.
+
+I pitched this idea to my friend [Yury](http://yury.name) and we thought the core of this system is Structured bLOGing. Thus, it should get the abhorrent name **slogging**.
+
+There are still many unanswered questions, and the exact implementation details are a bit muddy. So, I ask my friends a readers a few things:
+
+* Do you want to write structured posts too? Do you want to host them yourself or would a central site be good?
+* Is there existing software that could get me 90% the way there? Wikis? Template engines?
+* Does a UI ninja have any neat ideas? I want it to be a little more than a form with a bunch of `&lt;textarea&gt;`s.
+* Again for a data mining ninja. What neat things would you do with a bunch of structured posts?
+* Can someone PLEASE come up with a better name? I hate the name *blogging* and I hate slogging more. (and the .com is taken)
+* Anything else on your mind?

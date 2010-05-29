@@ -16,6 +16,11 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 
 {% for post in site.posts limit:1 %}
 ## [{{ post.title }}]({{ post.url }})
+
+{% if post.image %}
+<img src="{{ post.image }}" class="right" />
+{% endif %}
+
   {{ post.content }}
       
   <div id="like_button">
