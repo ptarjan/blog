@@ -15,11 +15,11 @@ The really cool part would be when **different** people use the **same** templat
 
 I pitched this idea to my friend [Yury](http://yury.name) and we thought the core of this system is Structured bLOGing. Thus, it should get the abhorrent name **slogging**.
 
-There are still many unanswered questions, and the exact implementation details are a bit muddy. So, I ask my friends a readers a few things:
+There are still many unanswered questions, and the exact implementation details are a bit muddy. So, I ask my friends and readers a few things:
 
 * Do you want to write structured posts too? Do you want to host them yourself or would a central site be good?
 * Is there existing software that could get me 90% the way there? Wikis? Template engines?
-* Does a UI ninja have any neat ideas? I want it to be a little more than a form with a bunch of `&lt;textarea&gt;`s.
+* Does a UI ninja have any neat ideas? I want it to be a little more than a form with a bunch of `<textarea>`s.
 * Again for a data mining ninja. What neat things would you do with a bunch of structured posts?
 * Can someone PLEASE come up with a better name? I hate the name *blogging* and I hate slogging more. (and the .com is taken)
 * Anything else on your mind?
