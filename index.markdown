@@ -3,7 +3,7 @@ layout: root
 title: Paul Tarjan's Blog
 description: I was the Tech Lead for Yahoo! SearchMonkey. Now I'm a juggling unicycling web hacker @ Facebook. 
 hide_site: True
-image: /images/paul.jpg
+image: http://blog.paulisageek.com/images/paul.jpg
 ---
 ## A CROSS BETWEEN USEFUL THINGS AND PAUL TARJAN'S RAMBLINGS.
 

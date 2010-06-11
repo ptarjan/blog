@@ -17,17 +17,16 @@ if (window.location.href.indexOf(host) !== 0 &&
 }
     </script>
 
-    {% if page.image %}
-    <link rel="image_src" href="{{ page.image }}" />
-    <meta property="og:image" content="{{ page.image }}" /> 
-    {% endif %}
-    {% unless page.hide_site %}
-    <meta property="og:site_name" content="Paul Tarjan's Blog" />
-    {% endunless %}
     <meta property="og:type" content="website" />
     <meta property="fb:app_id" content="123919717618370" />
-    
+    {% if page.image %}
+      <link rel="image_src" href="{{ page.image }}" />
+      <meta property="og:image" content="{{ page.image }}" /> 
+    {% endif %}
+    {% unless page.hide_site %}
+      <meta property="og:site_name" content="Paul Tarjan's Blog" />
+    {% endunless %}
     {% if page.description %}
-    <meta name="description" content="{{ page.description }}" /> 
-    <meta property="og:description" content="{{ page.description }}" /> 
+      <meta name="description" content="{{ page.description }}" /> 
+      <meta property="og:description" content="{{ page.description }}" /> 
     {% endif %}
