@@ -1,6 +1,8 @@
 ---
 layout: root
 title: Paul Tarjan's Blog
+description: I was the Tech Lead for Yahoo! SearchMonkey. Now I'm a juggling unicycling web hacker @ Facebook. 
+
 ---
 ## A CROSS BETWEEN USEFUL THINGS AND PAUL TARJAN'S RAMBLINGS.
 
