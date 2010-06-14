@@ -40,7 +40,7 @@ government, and [Weird Al][] is my favorite musician.
 *Paul is a lint-free, [white and nerdy][] hacker on the Platform team.*
 
 **Note:** In case you were wondering, the Facebook URL Linter's
-name hails from [Douglas Crockford][]'s [JS Lint][].
+name hails from the original [lint](http://en.wikipedia.org/wiki/Lint_%28software%29) UNIX program.
 
   [Open Graph protocol]: http://developers.facebook.com/docs/opengraph
   [Facebook URL Linter]: http://developers.facebook.com/tools/lint/
@@ -58,5 +58,3 @@ name hails from [Douglas Crockford][]'s [JS Lint][].
   [White House]: http://www.facebook.com/WhiteHouse
   [Weird Al]: http://www.facebook.com/weirdal
   [white and nerdy]: http://www.youtube.com/watch?v=vhvybkPa15c
-  [Douglas Crockford]: http://www.crockford.com/
-  [JS Lint]: http://www.jslint.com/
