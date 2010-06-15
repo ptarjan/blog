@@ -1,1 +1,1 @@
-# (Paul Tarjan's blog)[http://blog.paulisageek.com]
+# [Paul Tarjan's blog](http://blog.paulisageek.com)
