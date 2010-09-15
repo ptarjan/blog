@@ -1,0 +1,3 @@
+rsync -az _site/ paulisageek.com:~/blog.paulisageek.com/_site/staging/
+
+echo "   http://blog.paulisageek.com/staging/"
