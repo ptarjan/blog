@@ -24,7 +24,9 @@ my other <a href="http://paultarjan.com" rel="me">Internet Things</a>.
 <img src="{{ post.image }}" class="right" />
 {% endif %}
 
+  <div id="post_content">
   {{ post.content }}
+  </div>
       
   <div id="like_button">
     <iframe src="http://www.facebook.com/plugins/like.php?show_faces=false&href=http://blog.paulisageek.com{{ post.url }}" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100%; height:24px"> </iframe>
