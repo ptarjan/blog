@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GA Tech Hackathon 2010
+title: GATech Hackathon 2010
 image: http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs420.snc4/46310_124198294296224_114869201895800_126993_2462153_n.jpg
 tags:
 - facebook
