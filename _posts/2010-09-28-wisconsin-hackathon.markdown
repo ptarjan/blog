@@ -71,7 +71,7 @@ It's a map-based application that mashes Google Maps API, Google's Translate API
 
 ## First Prize - [Magic Grade Ball](http://crimson.scout.wisc.edu/projection/select.php)
 
-Predict your grade based on past performance at UW-Madison.
+UW-Madison publishes the summary statistics of grades for every class. This hack parses in that data, and if you put in your previous grades, it can predict your future grade. I can't wait to see if it works for these students :)
 
 [![First Prize](http://crimson.scout.wisc.edu/projection/screenshot.png)](http://www.facebook.com/event.php?eid=150184801660041&v=wall&story_fbid=161614143852275&ref=mf)
 
@@ -80,7 +80,7 @@ Predict your grade based on past performance at UW-Madison.
 
 ## [Grand Prize](http://www.facebook.com/photo.php?pid=148628&id=114869201895800&ref=fbx_album) - [SoundStroke](http://pages.cs.wisc.edu/~mccardel/soundstroke/index.html)
 
-A program that lets you draw on a canvas and have sound produced as you draw. The sounds you get are based on the shape of the strokes you drew, and you can create loops.
+A program that lets you draw on a canvas and have sound produced as you draw. The sounds you get are based on the shape of the strokes you drew, and the different colors are mixed into a "sound loop". A drum machine cross with MSPaint.
 
 [![Grand Prize](http://i.imgur.com/WrxJa.png)](http://www.facebook.com/event.php?eid=150184801660041&v=wall&story_fbid=152354244795148&ref=mf)
 
@@ -89,7 +89,7 @@ A program that lets you draw on a canvas and have sound produced as you draw. Th
 
 ## Footer
 
-Thank you to all of our amazing engineers [Tony Kamenick](http://www.facebook.com/tkamenick), [Arun Vijayvergiya](http://www.facebook.com/arun), [Venkat Venkataramani](http://www.facebook.com/venkat), and awesome recruiter [Marcia Velencia](http://www.facebook.com/marcia).
+Thank you to all of our amazing engineers [Tony Kamenick](http://www.facebook.com/tkamenick), [Venkat Venkataramani](http://www.facebook.com/venkat), [Arun Vijayvergiya](http://www.facebook.com/arun), and awesome recruiter [Marcia Velencia](http://www.facebook.com/marcia).
 
 Keep Hacking!<br/>
 [Paul Tarjan](http://www.facebook.com/paul.tarjan)
