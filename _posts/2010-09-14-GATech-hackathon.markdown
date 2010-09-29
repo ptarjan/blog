@@ -56,6 +56,8 @@ A simple greasemonkey script built ontop of Google Transliterate, that lets you 
 
 [![FB-Lingo](http://www.cc.gatech.edu/grads/t/tyadav3/fbhack/Transliteration-Screenshot.png)](http://www.nogoodatcoding.com/projects/facebook-transliteration-translation-greasemonkey-scripts)
 
+## Thanks
+
 Thank you to all of our amazing engineers [Hisham Harik](http://www.facebook.com/hisham), [Justin Mitchell](http://www.facebook.com/justin), [Kiran Sidhu](http://www.facebook.com/Sidhu), and awesome recruiter [Clifton Tay](htt://www.facebook.com/ctay).
 
 Keep Hacking!<br/>
