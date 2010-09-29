@@ -85,9 +85,7 @@ A program that lets you draw on a canvas and have sound produced as you draw. Th
 [![Grand Prize](http://i.imgur.com/WrxJa.png)](http://www.facebook.com/event.php?eid=150184801660041&v=wall&story_fbid=152354244795148&ref=mf)
 
 
-
-
-## Footer
+## Thanks
 
 Thank you to all of our amazing engineers [Tony Kamenick](http://www.facebook.com/tkamenick), [Venkat Venkataramani](http://www.facebook.com/venkat), [Arun Vijayvergiya](http://www.facebook.com/arun), and awesome recruiter [Marcia Velencia](http://www.facebook.com/marcia).
 
