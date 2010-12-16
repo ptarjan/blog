@@ -17,13 +17,14 @@ By minimizing the friction associated with signing up for a new account and maki
 
 ![][4] 
 
-**How it works**  
+## How it works
 The [registration tool][5] is an iframe that websites can add with just one line of code, and customize to request the specific fields required to create an account. When a user is logged into Facebook and arrives at the registration tool on a website, they'll see that the form is prefilled with the relevant information he or she has already shared on their Facebook profile. Users can see the specific information the site is requesting of them, giving them more control to decide whether to sign up. 
 
 The site can request information stored on Facebook (e.g., name, verified email address, current location, etc.) or custom information (e.g., text fields, checkboxes, dropdown menus, security checks, typeaheads, etc.). Users can decide whether to share their information with the site by clicking "Register," or if a Facebook account isn't required by the site, select an option to fill out the form manually. Because the tool works through an iframe, no data is shared with the website until the user clicks "Register."
 
 When a user registers for the site with their Facebook account (similar to Facebook Login), the site is given permission to access the user's basic information on Facebook in addition to the data presented in the form, and in turn can provide the user with a personalized and social experience.
-**Getting started**  
+
+## Getting started
 To integrate the registration tool, simply add the iframe or XFBML to your site:
 
 Using iframe:
